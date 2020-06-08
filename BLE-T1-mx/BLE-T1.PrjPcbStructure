@@ -1,0 +1,4 @@
+Record=TopLevelDocument|FileName=1_BLE-T1_top.SchDoc
+Record=SheetSymbol|SourceDocument=1_BLE-T1_top.SchDoc|Designator=Designator|SchDesignator=Designator|FileName=4_BLE-T1_power.SchDoc|SymbolType=Normal|RawFileName=4_BLE-T1_power.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=1_BLE-T1_top.SchDoc|Designator=Designator|SchDesignator=Designator|FileName=2_BLE-T1-matrix.SchDoc|SymbolType=Normal|RawFileName=2_BLE-T1-matrix.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=1_BLE-T1_top.SchDoc|Designator=Designator|SchDesignator=Designator|FileName=3_BLE-T1-mcu.SchDoc|SymbolType=Normal|RawFileName=3_BLE-T1-mcu.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 

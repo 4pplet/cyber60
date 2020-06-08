@@ -1,0 +1,5 @@
+
+*.PcbDocPreview
+*.SchDocPreview
+BLE-T1-mx/History/*
+*.LOG
