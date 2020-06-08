@@ -72,7 +72,7 @@ GenerateClassCluster=0
 DocumentUniqueId=QYTUGAVK
 
 [Document3]
-DocumentPath=3_BLE-T1_mcu_2.SchDoc
+DocumentPath=4_BLE-T1_power.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
