@@ -5,3 +5,5 @@ BLE-T1-mx/History/*
 *.LOG
 *.PrjPcbStructurePreview
 *.PrjPcbStructurePreview
+*.html
+*.drc
