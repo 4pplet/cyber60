@@ -1,10 +1,12 @@
 
 *.PcbDocPreview
 *.SchDocPreview
-BLE-T1-mx/History/*
 *.LOG
 *.PrjPcbStructurePreview
 *.PrjPcbStructurePreview
 *.html
 *.drc
-BLE-T1-mx/Project Outputs for alps-cherry/*
+BLE-T1/History/*
+BLE-T2/History/*
+BLE-T1/Project Outputs for alps-cherry/*
+BLE-T2/Project Outputs for alps-cherry/*
