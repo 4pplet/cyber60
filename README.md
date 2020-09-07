@@ -1,5 +1,5 @@
 
-Repo for experimental keyboard PCB's using nRF52830.
+Repo for experimental keyboard PCB's using nRF52840.
 
 ## Status:
 Prototyping phase.
