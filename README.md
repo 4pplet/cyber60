@@ -33,3 +33,17 @@ A1 - initial revision/prototype
 
 ## Revisions:
 A1 - initial revision/prototype
+
+# BLE-T3
+
+## Layout support BLE-T3: 
+![alt text](./readme-images/layout_support_T2_Rev_A3.jpg "Layout support")
+
+## Altium view of - BLE-T3
+![alt text](./readme-images/BLE-T3_Rev_A1.jpg "PCB View - Rev A")
+
+## Specs BLE-T3:
+- Module: Holyiot YJ-18010
+
+## Revisions:
+A1 - initial revision/prototype
