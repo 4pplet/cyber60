@@ -143,7 +143,7 @@ Configuration6_Item6=Value=100|Designator=100|Footprint=100|Quantity=100|LCSC MF
 OutputType7=Pick Place
 OutputName7=Generates pick and place files
 OutputCategory7=Assembly
-OutputDocumentPath7=waffling60-MX.PcbDoc
+OutputDocumentPath7=BLE-T3.PcbDoc
 OutputVariantName7=
 OutputEnabled7=1
 OutputEnabled7_OutputMedium1=0
