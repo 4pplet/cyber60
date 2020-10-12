@@ -2,7 +2,7 @@
 Repo for experimental keyboard PCB's using nRF52840, the cyber.
 
 ## Status:
-Prototyping phase.
+Prototyping phase. CAUSION, PROJECT IS UNTESTED AND NO ZMK IMPLEMENTATION IS DONE
 
 # cyber60-1
 
