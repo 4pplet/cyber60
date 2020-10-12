@@ -100,7 +100,7 @@ OutputDefault4=0
 Configuration4_Name1=OutputConfigurationParameter1
 Configuration4_Item1=Record=PickPlaceView|Units=Metric|GenerateCSVFormat=True|GenerateTextFormat=False|ShowUnits=False|Separator=.|ExcludeFilterParam=False|IncludeVariations=True|Filter= |FilterActive=False|Column#1=Name:Designator,Fixed:True,Metric:False,Visible:True,Sort:None,Position:0|Column#2=Name:Comment,Fixed:True,Metric:False,Visible:True,Sort:None,Position:21|Column#3=Name:Layer,Fixed:True,Metric:False,Visible:True,Sort:None,Position:9|Column#4=Name:Footprint,Fixed:True,Metric:False,Visible:True,Sort:None,Position:1|Column#5=Name:Footprint Description,Fixed:True,Metric:False,Visible:False,Sort:None,Position:2|Column#6=Name:Center-X,Fixed:True,Metric:True,Visible:True,Sort:None,Position:3|Column#7=Name:Center-Y,Fixed:True,Metric:True,Visible:True,Sort:None,Position:4|Column#8=Name:Rotation,Fixed:True,Metric:False,Visible:True,Sort:None,Position:10|Column#9=Name:Description,Fixed:True,Metric:False,Visible:False,Sort:None,Position:11|Column#10=Name:ComponentKind,Fixed:True,Metric:False,Visible:False,Sort:None,Position:12|Column#11=Name:Height,Fixed:True,Metric:True,Visible:False,Sort:None,Position:13|Column#12=Name:Ref-X,Fixed:True,Metric:True,Visible:True,Sort:None,Position:5|Column#13=Name:Ref-Y,Fixed:True,Metric:True,Visible:True,Sort:None,Position:6|Column#14=Name:Pad-X,Fixed:True,Metric:True,Visible:True,Sort:None,Position:7|Column#15=Name:Pad-Y,Fixed:True,Metric:True,Visible:True,Sort:None,Position:8|Column#16=Name:Variation,Fixed:True,Metric:False,Visible:False,Sort:None,Position:14|Column#17=Name:Version,Fixed:False,Metric:False,Visible:False,Sort:None,Position:20|Column#18=Name:MRF.Part,Fixed:False,Metric:False,Visible:False,Sort:None,Position:18|Column#19=Name:MFGPN,Fixed:False,Metric:False,Visible:False,Sort:None,Position:17|Column#20=Name:MFG,Fixed:False,Metric:False,Visible:False,Sort:None,Position:16|Column#21=Name:LCSC MFG,Fixed:False,Metric:False,Visible:False,Sort:None,Position:15|Column#22=Name:Value,Fixed:False,Metric:False,Visible:False,Sort:None,Position:19|Column#23=Name:LCSC Part #,Fixed:False,Metric:False,Visible:False,Sort:None,Position:22
 OutputType5=PCB 3D Print
-OutputName5=BLE-T2 PCB Print
+OutputName5=cyber-1 PCB Print
 OutputCategory5=Documentation
 OutputDocumentPath5=BLE-T2.PcbDoc
 OutputVariantName5=
@@ -155,7 +155,7 @@ Configuration7_Item5=Value=100|Designator=100|Footprint=100|Quantity=100|LCSC MF
 Configuration7_Name6=VisibleOrder_Flat
 Configuration7_Item6=Value=100|Designator=100|Footprint=100|Quantity=100|LCSC MFG=100|LCSC Part #=100
 OutputType8=PDF3D
-OutputName8=BLE-T2 PDF3D
+OutputName8=cyber-1 PDF3D
 OutputCategory8=Documentation
 OutputDocumentPath8=BLE-T2.PcbDoc
 OutputVariantName8=
