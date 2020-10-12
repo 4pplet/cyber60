@@ -6,10 +6,8 @@
 *.PrjPcbStructurePreview
 *.html
 *.drc
-BLE-T1/History/*
-BLE-T2/History/*
-BLE-T1/Project Outputs for alps-cherry/*
-BLE-T2/Project Outputs for alps-cherry/*
+cyber60-1/History/*
+cyber60-2/History/*
+cyber60-1/Project Outputs for alps-cherry/*
+cyber60-2/Project Outputs for alps-cherry/*
 .DS_Store
-BLE-T3/History/*
-BLE-T3/Project Outputs for alps-cherry/*

@@ -1,3 +1,3 @@
-Record=TopLevelDocument|FileName=1_BLE-T2_top.SchDoc
-Record=SheetSymbol|SourceDocument=1_BLE-T2_top.SchDoc|Designator=Designator|SchDesignator=Designator|FileName=3_BLE-T2_mcu.SchDoc|SymbolType=Normal|RawFileName=3_BLE-T2_mcu.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
-Record=SheetSymbol|SourceDocument=1_BLE-T2_top.SchDoc|Designator=Designator|SchDesignator=Designator|FileName=2_BLE-T2_matrix.SchDoc|SymbolType=Normal|RawFileName=2_BLE-T2_matrix.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=TopLevelDocument|FileName=1_cyber60-1_top.SchDoc
+Record=SheetSymbol|SourceDocument=1_cyber60-1_top.SchDoc|Designator=Designator|SchDesignator=Designator|FileName=3_cyber60-1_mcu.SchDoc|SymbolType=Normal|RawFileName=3_cyber60-1_mcu.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=1_cyber60-1_top.SchDoc|Designator=Designator|SchDesignator=Designator|FileName=2_cyber60-1_matrix.SchDoc|SymbolType=Normal|RawFileName=2_cyber60-1_matrix.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 

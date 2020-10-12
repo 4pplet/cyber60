@@ -15,9 +15,9 @@ LifeCycleDefinitionGUID=
 RevisionNamingSchemeGUID=
 
 [OutputGroup1]
-Name=BLE-T2.OutJob
+Name=cyber60-1.OutJob
 Description=
-TargetOutputMedium=Prints
+TargetOutputMedium=Assembly drawing
 VariantName=[No Variations]
 VariantScope=1
 CurrentConfigurationName=
@@ -38,7 +38,7 @@ OutputMedium5_Type=Publish
 OutputType1=Gerber
 OutputName1=Gerber Files
 OutputCategory1=Fabrication
-OutputDocumentPath1=BLE-T2.PcbDoc
+OutputDocumentPath1=cyber60-1.PcbDoc
 OutputVariantName1=
 OutputEnabled1=0
 OutputEnabled1_OutputMedium1=0
@@ -52,7 +52,7 @@ Configuration1_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayer
 OutputType2=NC Drill
 OutputName2=NC Drill Files
 OutputCategory2=Fabrication
-OutputDocumentPath2=BLE-T2.PcbDoc
+OutputDocumentPath2=cyber60-1.PcbDoc
 OutputVariantName2=
 OutputEnabled2=0
 OutputEnabled2_OutputMedium1=0
@@ -66,9 +66,9 @@ Configuration2_Item1=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|Ge
 OutputType3=Assembly
 OutputName3=Assembly Drawings
 OutputCategory3=Assembly
-OutputDocumentPath3=BLE-T2.PcbDoc
+OutputDocumentPath3=cyber60-1.PcbDoc
 OutputVariantName3=
-OutputEnabled3=0
+OutputEnabled3=1
 OutputEnabled3_OutputMedium1=0
 OutputEnabled3_OutputMedium2=1
 OutputEnabled3_OutputMedium3=0
@@ -88,7 +88,7 @@ PcbPrintPreferences3=
 OutputType4=Pick Place
 OutputName4=Generates pick and place files
 OutputCategory4=Assembly
-OutputDocumentPath4=BLE-T2.PcbDoc
+OutputDocumentPath4=cyber60-1.PcbDoc
 OutputVariantName4=
 OutputEnabled4=0
 OutputEnabled4_OutputMedium1=0
@@ -102,9 +102,9 @@ Configuration4_Item1=Record=PickPlaceView|Units=Metric|GenerateCSVFormat=True|Ge
 OutputType5=PCB 3D Print
 OutputName5=cyber-1 PCB Print
 OutputCategory5=Documentation
-OutputDocumentPath5=BLE-T2.PcbDoc
+OutputDocumentPath5=cyber60-1.PcbDoc
 OutputVariantName5=
-OutputEnabled5=1
+OutputEnabled5=0
 OutputEnabled5_OutputMedium1=0
 OutputEnabled5_OutputMedium2=0
 OutputEnabled5_OutputMedium3=0
@@ -132,7 +132,7 @@ Configuration6_Item1=Record=SchPrintView|ShowNoERC=True|ShowParamSet=True|ShowPr
 OutputType7=BOM_PartType
 OutputName7=Bill of Materials CSV
 OutputCategory7=Report
-OutputDocumentPath7=BLE-T2.PcbDoc
+OutputDocumentPath7=cyber60-1.PcbDoc
 OutputVariantName7=
 OutputEnabled7=0
 OutputEnabled7_OutputMedium1=0
@@ -157,9 +157,9 @@ Configuration7_Item6=Value=100|Designator=100|Footprint=100|Quantity=100|LCSC MF
 OutputType8=PDF3D
 OutputName8=cyber-1 PDF3D
 OutputCategory8=Documentation
-OutputDocumentPath8=BLE-T2.PcbDoc
+OutputDocumentPath8=cyber60-1.PcbDoc
 OutputVariantName8=
-OutputEnabled8=1
+OutputEnabled8=0
 OutputEnabled8_OutputMedium1=0
 OutputEnabled8_OutputMedium2=0
 OutputEnabled8_OutputMedium3=0
@@ -172,7 +172,7 @@ Configuration8_Item1=Record=ExportPDF3DSetting|Version=110|Format=0|Flags=8158|S
 OutputType9=ExportSTEP
 OutputName9=Export STEP
 OutputCategory9=Export
-OutputDocumentPath9=BLE-T2.PcbDoc
+OutputDocumentPath9=cyber60-1.PcbDoc
 OutputVariantName9=
 OutputEnabled9=0
 OutputEnabled9_OutputMedium1=0
@@ -187,7 +187,7 @@ Configuration9_Item1=Record=ExportSTEPView|ExportComponentOptions=0|ExportModels
 [PublishSettings]
 OutputFilePath2=C:\Users\Stefan\Documents\git\Steezy60-ALPS\Project Outputs for alps-cherry\2019-11-30\Job1.PDF
 ReleaseManaged2=1
-OutputBasePath2=Project Outputs for alps-cherry
+OutputBasePath2=Project Outputs for Free Documents
 OutputPathMedia2==CurrentDate
 OutputPathMediaValue2==CurrentDate
 OutputPathOutputer2=[Output Type]
@@ -214,7 +214,7 @@ PDFACompliance2=Disabled
 PDFVersion2=Default
 OutputFilePath3=C:\Users\Stefan\Documents\GitHub\AEKISO60\Project Outputs for alps-cherry\2020-10-09\
 ReleaseManaged3=1
-OutputBasePath3=Project Outputs for alps-cherry
+OutputBasePath3=Project Outputs for Free Documents
 OutputPathMedia3==CurrentDate
 OutputPathMediaValue3==CurrentDate
 OutputPathOutputer3=[Output Type]
@@ -227,7 +227,7 @@ OutputFileNameSpecial3=
 OpenOutput3=0
 OutputFilePath4=C:\Users\Stefan\Documents\GitHub\AEKISO60\Project Outputs for alps-cherry\2020-10-09\Prints.PDF
 ReleaseManaged4=1
-OutputBasePath4=Project Outputs for alps-cherry
+OutputBasePath4=Project Outputs for Free Documents
 OutputPathMedia4==CurrentDate
 OutputPathMediaValue4==CurrentDate
 OutputPathOutputer4=[Output Type]
@@ -254,7 +254,7 @@ PDFACompliance4=Disabled
 PDFVersion4=Default
 OutputFilePath5=C:\Users\Stefan\Documents\git\Steezy60\Steezy60-ALPS\Project Outputs for alps-cherry\Job1.PDF
 ReleaseManaged5=1
-OutputBasePath5=Project Outputs for alps-cherry
+OutputBasePath5=Project Outputs for Free Documents
 OutputPathMedia5==CurrentDate
 OutputPathMediaValue5==CurrentDate
 OutputPathOutputer5=[Output Type]
