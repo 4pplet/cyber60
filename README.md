@@ -13,10 +13,10 @@ Prototyping phase. CAUSION, PROJECT IS UNTESTED AND NO ZMK IMPLEMENTATION IS DON
 - Lipo charger
 
 ## Layout support cyber60-1:
-![alt text](./readme-images/layout_support_cyber60_1_Rev_A1.jpg "Layout support")
+![alt text](./readme-images/layout_support_cyber60-1_Rev_A1.jpg "Layout support")
 
 ## Altium view of - cyber60-1
-![alt text](./readme-images/cyber60_1_Rev_A1.jpg "PCB View - Rev A")
+![alt text](./readme-images/cyber60-1_Rev_A1.jpg "PCB View - Rev A")
 
 ## Revisions:
 A1 - initial revision/prototype
@@ -31,10 +31,10 @@ A1 - initial revision/prototype
 - RGB-led under Capslock for multi function indicator
 
 ## Layout support cyber60-2:
-![alt text](./readme-images/layout_support_cyber60_2_Rev_A1.jpg "Layout support")
+![alt text](./readme-images/layout_support_cyber60-2_Rev_A1.jpg "Layout support")
 
 ## Altium view of - cyber60-2
-![alt text](./readme-images/cyber60_2_Rev_A1.jpg "PCB View - Rev A")
+![alt text](./readme-images/cyber60-2_Rev_A1.jpg "PCB View - Rev A")
 
 ## Revisions:
 A1 - initial revision/prototype
