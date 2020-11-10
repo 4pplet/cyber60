@@ -1,10 +1,10 @@
 
+# cyber60
+
 Repo for experimental keyboard PCB's using nRF52840, the cyber.
 
 ## Status:
 CAUSION, project is being tested and only an early rough ZMK-implementation is done (not in main repo, check my fork)
-
-# cyber60-2
 
 ## Specs cyber60:
 - Module: Holyiot YJ-18010
