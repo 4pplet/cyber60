@@ -15,10 +15,10 @@ CAUSION, project is being tested and only an early rough ZMK-implementation is d
 - Possible to build with just a soldering iron (no underside pads etc)
 
 ## Layout support cyber60:
-![alt text](./readme-images/layout_support_cyber60-2_Rev_A1.jpg "Layout support")
+![alt text](./readme-images/layout_support_cyber60_Rev_A2.jpg "Layout support")
 
 ## Altium view of - cyber60
-![alt text](./readme-images/cyber60-2_Rev_A1.jpg "PCB View - Rev A")
+![alt text](./readme-images/cyber60_Rev_A2.jpg "PCB View - Rev A")
 
 ## Revisions:
 - A1 - initial revision/prototype
