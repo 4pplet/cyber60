@@ -22,4 +22,4 @@ CAUSION, project is being tested and only an early rough ZMK-implementation is d
 
 ## Revisions:
 A1 - initial revision/prototype
-A2 - flipped PMOS-transistor, error in design. Added pulldown on enable to battery voltage measurement circuit, so it does not have to be disabled in code, only enabled. Minor silkscreen changes.
+A2 (prerelease) - flipped PMOS-transistor, error in design. Added pulldown on enable to battery voltage measurement circuit, so it does not have to be disabled in code, only enabled. Minor silkscreen changes.
