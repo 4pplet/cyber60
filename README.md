@@ -21,5 +21,5 @@ CAUSION, project is being tested and only an early rough ZMK-implementation is d
 ![alt text](./readme-images/cyber60-2_Rev_A1.jpg "PCB View - Rev A")
 
 ## Revisions:
-A1 - initial revision/prototype
-A2 (prerelease) - flipped PMOS-transistor, error in design. Added pulldown on enable to battery voltage measurement circuit, so it does not have to be disabled in code, only enabled. Minor silkscreen changes.
+- A1 - initial revision/prototype
+- A2 (prerelease) - flipped PMOS-transistor, error in design. Added pulldown on enable to battery voltage measurement circuit, so it does not have to be disabled in code, only enabled. Minor silkscreen changes.
