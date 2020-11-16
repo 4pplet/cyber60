@@ -1,7 +1,7 @@
 
 # cyber60
 
-Repo for experimental keyboard PCB's using nRF52840, the cyber.
+A DIY-friendly 60% using nRF52840 and ZMK: the cyber.
 
 ## Status:
 CAUSION, project is being tested and only an early rough ZMK-implementation is done (not in main repo, check my fork)
@@ -10,7 +10,7 @@ CAUSION, project is being tested and only an early rough ZMK-implementation is d
 - Module: Holyiot YJ-18010
 - Standard Tray Mount support
 - Non constant drain battery measurement
-- Lipo charger
+- Lipo charger for single cell 3.7V li-po/li-ion batteries
 - RGB-led under Capslock for multi function indicator
 - Possible to build with just a soldering iron (no underside pads etc)
 
