@@ -12,6 +12,7 @@ CAUSION, project is being tested and only an early rough ZMK-implementation is d
 - Non constant drain battery measurement
 - Lipo charger
 - RGB-led under Capslock for multi function indicator
+- Possible to build with just a soldering iron (no underside pads etc)
 
 ## Layout support cyber60:
 ![alt text](./readme-images/layout_support_cyber60-2_Rev_A1.jpg "Layout support")
