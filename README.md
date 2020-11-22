@@ -4,7 +4,7 @@
 A DIY-friendly 60% using nRF52840 and ZMK: the cyber.
 
 ## Status:
-CAUSION, project is being tested and only an early rough ZMK-implementation is done (not in main repo, check my fork)
+CAUSION, project is being tested and only an early rough ZMK-implementation is done (not in main repo, check my fork). Bugs in Rev A1, use prereleased A2 if you want to give it a go.
 
 ## Specs cyber60:
 - Module: Holyiot YJ-18010
