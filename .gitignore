@@ -6,8 +6,8 @@
 *.PrjPcbStructurePreview
 *.html
 *.drc
-cyber60-1/History/*
-cyber60-2/History/*
-cyber60-1/Project Outputs for alps-cherry/*
-cyber60-2/Project Outputs for alps-cherry/*
 .DS_Store
+cyber60-mx/History/*
+cyber60-mx/Project Outputs for alps-cherry/*
+cyber60-alps/History/*
+cyber60-alps/Project Outputs for alps-cherry/*
