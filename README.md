@@ -13,13 +13,26 @@ CAUSION, project is being tested and only an early rough ZMK-implementation is d
 - Lipo charger for single cell 3.7V li-po/li-ion batteries
 - RGB-led under Capslock for multi function indicator
 - Possible to build with just a soldering iron (no underside pads etc)
+- Two versions running the same FW-implementation. One MX, one ALPS
 
+
+# MX-version
 ## Layout support cyber60:
-![alt text](./readme-images/layout_support_cyber60_Rev_A2.jpg "Layout support")
+![alt text](./readme-images/layout_support_cyber60-mx_Rev_A2.jpg "Layout support")
 
 ## Altium view of - cyber60
-![alt text](./readme-images/cyber60_Rev_A2.jpg "PCB View - Rev A")
+![alt text](./readme-images/cyber60-mx_Rev_A2.jpg "PCB View - Rev A")
 
 ## Revisions:
 - A1 - initial revision/prototype
 - A2 (prerelease) - flipped PMOS-transistor, error in design. Added pulldown on enable to battery voltage measurement circuit, so it does not have to be disabled in code, only enabled. Minor silkscreen changes.
+
+# ALPS-version
+## Layout support cyber60:
+![alt text](./readme-images/layout_support_cyber60-alps_Rev_A1.jpg "Layout support")
+
+## Altium view of - cyber60
+![alt text](./readme-images/cyber60-alps_Rev_A1.jpg "PCB View - Rev A")
+
+## Revisions:
+- A1 - initial revision/prototype
