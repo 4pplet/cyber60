@@ -17,22 +17,22 @@ CAUSION, project is being tested and only an early rough ZMK-implementation is d
 
 
 # MX-version
-## Layout support cyber60:
+## Layout support cyber60 MX-version:
 ![alt text](./readme-images/layout_support_cyber60-mx_Rev_A2.jpg "Layout support")
 
-## Altium view of - cyber60
+## Altium view of - cyber60 MX-version:
 ![alt text](./readme-images/cyber60-mx_Rev_A2.jpg "PCB View - Rev A")
 
-## Revisions:
+## MX Revisions:
 - A1 - initial revision/prototype
 - A2 (prerelease) - flipped PMOS-transistor, error in design. Added pulldown on enable to battery voltage measurement circuit, so it does not have to be disabled in code, only enabled. Minor silkscreen changes.
 
 # ALPS-version
-## Layout support cyber60:
+## Layout support cyber60 ALPS-version:
 ![alt text](./readme-images/layout_support_cyber60-alps_Rev_A1.jpg "Layout support")
 
-## Altium view of - cyber60
+## Altium view of - cyber60 ALPS-version:
 ![alt text](./readme-images/cyber60-alps_Rev_A1.jpg "PCB View - Rev A")
 
-## Revisions:
+## ALPS Revisions:
 - A1 - initial revision/prototype
