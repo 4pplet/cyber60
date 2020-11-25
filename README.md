@@ -35,4 +35,4 @@ CAUSION, project is being tested and only an early rough ZMK-implementation is d
 ![alt text](./readme-images/cyber60-alps_Rev_A1.jpg "PCB View - Rev A")
 
 ## ALPS Revisions:
-- A1 - initial revision/prototype
+- A1 - initial revision/prototype, builds on MX rev A2
