@@ -4,16 +4,16 @@
 A DIY-friendly 60% using nRF52840 and ZMK: the cyber.
 
 ## Status:
-CAUSION, project is being tested and only an early rough ZMK-implementation is done (not in main repo, check my fork). Bugs in Rev A1, use prereleased A2 if you want to give it a go. Alps version is done, but untested.
+CAUSION, project is being tested and only an early rough ZMK-implementation is done (not in main repo, check my fork). Bugs in Rev A1, use prereleased A2 if you want to give it a go. ALPS and SMK-version is done, but untested.
 
 ## Specs cyber60:
 - Module: Holyiot YJ-18010
 - Standard Tray Mount support
 - Non constant drain battery measurement
 - Lipo charger for single cell 3.7V li-po/li-ion batteries
-- RGB-led under Capslock for multi function indicator
+- RGB-led under Capslock for multi function indicator (not on SMK-version)
 - Possible to build with just a soldering iron (no underside pads etc)
-- Two versions running the same FW-implementation. One MX, one ALPS
+- Three versions running the same FW-implementation. One MX, one ALPS, one SMK.
 
 
 # MX-version
@@ -36,3 +36,14 @@ CAUSION, project is being tested and only an early rough ZMK-implementation is d
 
 ## ALPS Revisions:
 - A1 - initial revision/prototype, builds on MX rev A2
+
+
+# SMK-version
+## Layout support cyber60 SMK-version:
+Comming
+
+## Altium view of - cyber60 SMK-version:
+Comming
+
+## SMK Revisions:
+- A1 - initial revision/prototype, builds on ALPS rev A1
