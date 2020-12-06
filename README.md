@@ -42,13 +42,12 @@ CAUSION, project is being tested and only an early rough ZMK-implementation is d
 ## ALPS Revisions:
 - A1 - initial revision/prototype, builds on MX rev A2
 
-
 # SMK-version
 ## Layout support cyber60 SMK-version:
-Comming
+![alt text](./readme-images/layout_support_cyber60-smk_Rev_A1.jpg "Layout support")
 
 ## Altium view of - cyber60 SMK-version:
-Comming
+![alt text](./readme-images/cyber60-smk_Rev_A1.jpg "PCB View - Rev A")
 
 ## SMK Revisions:
 - A1 - initial revision/prototype, builds on ALPS rev A1
