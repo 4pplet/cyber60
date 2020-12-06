@@ -19,7 +19,7 @@ CAUSION, project is being tested and only an early rough ZMK-implementation is d
 - Verify current consumption
 - Verify charge current
 - Implement RGB-led in ZMK
-- Verify voltage measurement circuit in ZMK (tested in code)
+- Verify voltage measurement circuit in ZMK (not tested in code)
 
 # MX-version
 ## Layout support cyber60 MX-version:
