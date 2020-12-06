@@ -15,6 +15,11 @@ CAUSION, project is being tested and only an early rough ZMK-implementation is d
 - Possible to build with just a soldering iron (no underside pads etc)
 - Three versions running the same FW-implementation. One MX, one ALPS, one SMK.
 
+## Todo:
+- Verify current consumption
+- Verify charge current
+- Implement RGB-led in ZMK
+- Verify voltage measurement circuit in ZMK (tested in code)
 
 # MX-version
 ## Layout support cyber60 MX-version:
