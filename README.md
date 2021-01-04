@@ -26,7 +26,7 @@ CAUSION, project is being tested and only an early rough ZMK-implementation is d
 ![alt text](./readme-images/layout_support_cyber60-mx_Rev_A2.jpg "Layout support")
 
 ## Altium view of - cyber60 MX-version:
-![alt text](./readme-images/cyber60-mx_Rev_A2.jpg "PCB View - Rev A")
+![alt text](./readme-images/cyber60-mx_Rev_B1.jpg "PCB View - Rev B")
 
 ## MX Revisions:
 - A1 - initial revision/prototype
