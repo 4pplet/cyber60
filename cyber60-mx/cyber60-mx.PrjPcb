@@ -213,7 +213,7 @@ DItemRevisionGUID=
 
 [Parameter1]
 Name=Revision
-Value= B1
+Value= B1 - MX
 
 [Parameter2]
 Name=ProjectTitle
