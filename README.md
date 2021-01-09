@@ -31,7 +31,7 @@ CAUSION, project is being tested and only an early rough ZMK-implementation is d
 ## MX Revisions:
 - A1 - initial revision/prototype
 - A2 (prerelease) - flipped PMOS-transistor, error in design. Added pulldown on enable to battery voltage measurement circuit, so it does not have to be disabled in code, only enabled. Minor silkscreen changes.
-- B1 (prerelease) - Adding underglow, buzzer and rotary support. Simplifying voltage measurement circuit (more quisient current). Changing matrix to duplex.
+- B1 (prerelease) - Adding underglow, buzzer and rotary support. Simplifying voltage measurement circuit (tiny bit more leak current). Changing matrix to duplex.
 
 # ALPS-version
 ## Layout support cyber60 ALPS-version:
