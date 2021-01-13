@@ -4,7 +4,7 @@
 A DIY-friendly 60% using nRF52840 and ZMK: the cyber.
 
 ## Status:
-CAUSION, project is being tested and only an early rough ZMK-implementation is done (not in main repo, check my fork). Bugs in Rev A1, use prereleased A2 if you want to give it a go. ALPS and SMK-version is done, but untested.
+CAUSION, project is being tested and only an early rough ZMK-implementation is done (not in main repo, check my fork). Bugs in Rev A1, use rev A2 for MX or rev A1 for SMK/Alps if you want to give it a go. ALPS and SMK-version is done, but untested. Revision B is currently being prototyped.
 
 ## Specs cyber60:
 - Module: Holyiot YJ-18010
@@ -14,12 +14,16 @@ CAUSION, project is being tested and only an early rough ZMK-implementation is d
 - RGB-led under Capslock for multi function indicator (not on SMK-version)
 - Possible to build with just a soldering iron (no underside pads etc)
 - Three versions running the same FW-implementation. One MX, one ALPS, one SMK.
+- Underglow for cozy glow
+- Buzzer for indicator or sweet tunes
 
 ## Todo:
 - Verify current consumption
 - Verify charge current
 - Implement RGB-led in ZMK
-- Verify voltage measurement circuit in ZMK (not tested in code)
+- Verify voltage measurement circuit for Rev A
+- Implement B1 revision in ZMK including Buzzer and underglow
+- Update Alps and SMK-versions to Rev B
 
 # MX-version
 ## Layout support cyber60 MX-version:
