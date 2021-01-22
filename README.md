@@ -20,10 +20,9 @@ CAUSION, project is being tested and only an early rough ZMK-implementation is d
 ## Todo:
 - Verify current consumption
 - Verify charge current
-- Implement RGB-led in ZMK
-- Verify voltage measurement circuit for Rev A
-- Implement B1 revision in ZMK including Buzzer and underglow
-- Update Alps and SMK-versions to Rev B
+- Make basic ZMK config for Rev B
+- Implement buzzer, RGB capslock-led and underglow in ZMK
+- Update Alps and SMK-PCB's to Rev B and make releases on github
 
 # MX-version
 ## Layout support cyber60 MX-version:
@@ -56,3 +55,9 @@ CAUSION, project is being tested and only an early rough ZMK-implementation is d
 
 ## SMK Revisions:
 - A1 - initial revision/prototype, builds on ALPS rev A1
+
+## Note:
+- Voltage measurement and power consumption for revision A1/A2 is not fully verified
+- RGB-led is not implemented in ZMK yet
+- Buzzer support is not implemented in ZMK yet
+- B-revision is still not tested and implemented.
