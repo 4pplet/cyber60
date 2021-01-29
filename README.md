@@ -22,7 +22,6 @@ CAUSION, project is being tested and only an early rough ZMK-implementation is d
 - Verify charge current
 - Make basic ZMK config for Rev B
 - Implement buzzer, RGB capslock-led and underglow in ZMK
-- Update Alps and SMK-PCB's to Rev B and make releases on github
 
 # MX-version
 ## Layout support cyber60 MX-version:
@@ -41,20 +40,22 @@ CAUSION, project is being tested and only an early rough ZMK-implementation is d
 ![alt text](./readme-images/layout_support_cyber60-alps_Rev_A1.jpg "Layout support")
 
 ## Altium view of - cyber60 ALPS-version:
-![alt text](./readme-images/cyber60-alps_Rev_A1.jpg "PCB View - Rev A")
+![alt text](./readme-images/cyber60-alps_Rev_B1.jpg "PCB View - Rev B")
 
 ## ALPS Revisions:
 - A1 - initial revision/prototype, builds on MX rev A2
+- B1 (prerelease) - Adding underglow, buzzer and rotary support. Simplifying voltage measurement circuit (tiny bit more leak current). Changing matrix to duplex.
 
 # SMK-version
 ## Layout support cyber60 SMK-version:
 ![alt text](./readme-images/layout_support_cyber60-smk_Rev_A1.jpg "Layout support")
 
 ## Altium view of - cyber60 SMK-version:
-![alt text](./readme-images/cyber60-smk_Rev_A1.jpg "PCB View - Rev A")
+![alt text](./readme-images/cyber60-smk_Rev_B1.jpg "PCB View - Rev B")
 
 ## SMK Revisions:
 - A1 - initial revision/prototype, builds on ALPS rev A1
+- B1 (prerelease) - Adding underglow, buzzer and rotary support. Simplifying voltage measurement circuit (tiny bit more leak current). Changing matrix to duplex.
 
 ## Note:
 - Voltage measurement and power consumption for revision A1/A2 is not fully verified
