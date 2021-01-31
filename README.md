@@ -7,9 +7,9 @@ A DIY-friendly 60% using nRF52840 and ZMK: the cyber.
 **CAUSION**: Use Rev A2 for MX, flipped transistor in A1. SMK and ALPS Rev A1 does not have this issue. Revision B is currently being prototyped and adds rotary encoder support, underglow and buzzer.
 
 ## Software:
-Link to zmk-fork: https://github.com/4pplet/zmk-config
-Link to zmk-config (uf2-files in actions): https://github.com/4pplet/zmk-config
-Bootloader used: pca10056_bootloader-0.3.2_s140_6.1.1.hex
+- Link to zmk-fork: https://github.com/4pplet/zmk-config
+- Link to zmk-config (uf2-files in actions): https://github.com/4pplet/zmk-config
+- Bootloader used: pca10056_bootloader-0.3.2_s140_6.1.1.hex
 
 ## Specs cyber60:
 - Module: Holyiot YJ-18010
