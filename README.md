@@ -16,7 +16,7 @@ A DIY-friendly 60% using nRF52840 and ZMK: the cyber.
 - Standard Tray Mount support
 - Non constant drain battery measurement
 - Lipo charger for single cell 3.7V li-po/li-ion batteries
-- RGB-led under Capslock for multi function indicator (not on SMK-version)
+- RGB-led under Capslock for multi function indicator (not under switch on SMK-version)
 - Possible to build with just a soldering iron (no underside pads etc)
 - Three versions running the same FW-implementation. One MX, one ALPS, one SMK
 - (rev b) Underglow for cozy glow
