@@ -4,18 +4,24 @@
 A DIY-friendly 60% using nRF52840 and ZMK: the cyber.
 
 ## Status:
-CAUSION, project is being tested and only an early rough ZMK-implementation is done (not in main repo, check my fork). Bugs in Rev A1, use rev A2 for MX or rev A1 for SMK/Alps if you want to give it a go. ALPS and SMK-version is done, but untested. Revision B is currently being prototyped.
+**CAUSION**: Use Rev A2 for MX, flipped transistor in A1. SMK and ALPS Rev A1 does not have this issue. Revision B is currently being prototyped and adds rotary encoder support, underglow and buzzer.
+
+## Software:
+- Link to zmk-fork: https://github.com/4pplet/zmk-config
+- Link to zmk-config (uf2-files in actions): https://github.com/4pplet/zmk-config
+- Bootloader used: pca10056_bootloader-0.3.2_s140_6.1.1.hex
 
 ## Specs cyber60:
 - Module: Holyiot YJ-18010
 - Standard Tray Mount support
 - Non constant drain battery measurement
 - Lipo charger for single cell 3.7V li-po/li-ion batteries
-- RGB-led under Capslock for multi function indicator (not on SMK-version)
+- RGB-led under Capslock for multi function indicator (not under switch on SMK-version)
 - Possible to build with just a soldering iron (no underside pads etc)
-- Three versions running the same FW-implementation. One MX, one ALPS, one SMK.
-- Underglow for cozy glow
-- Buzzer for indicator or sweet tunes
+- Three versions running the same FW-implementation. One MX, one ALPS, one SMK
+- (rev b) Underglow for cozy glow
+- (rev b) Buzzer for indicator or sweet tunes
+- (rev b) Rotary encoder at right most posision in split backspace or off board
 
 ## Todo:
 - Verify current consumption
