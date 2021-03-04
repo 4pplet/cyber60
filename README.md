@@ -19,6 +19,7 @@ A DIY-friendly 60% using nRF52840 and ZMK: the cyber.
 - RGB-led under Capslock for multi function indicator (not under switch on SMK-version)
 - Possible to build with just a soldering iron (no underside pads etc)
 - Three versions running the same FW-implementation. One MX, one ALPS, one SMK
+- USB horizontal placement is classic GH60, same as GH60, plain60, voyager60 etc.
 - (rev b) Underglow for cozy glow
 - (rev b) Buzzer for indicator or sweet tunes
 - (rev b) Rotary encoder at right most posision in split backspace or off board
