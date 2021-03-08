@@ -4,7 +4,7 @@
 A DIY-friendly 60% using nRF52840 and ZMK: the cyber.
 
 ## Status:
-**CAUSION**: Use Rev A2 for MX, flipped transistor in A1. SMK and ALPS Rev A1 does not have this issue. Revision B is currently being prototyped and adds rotary encoder support, underglow and buzzer.
+**CAUSION**: Use Rev A2 for MX, flipped transistor in A1. SMK and ALPS Rev A1 does not have this issue. Revision B is currently being prototyped and adds rotary encoder support, underglow and buzzer. **Revision B is currently untested.**
 
 ## Software:
 - Link to zmk-fork: https://github.com/4pplet/zmk-config
