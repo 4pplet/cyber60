@@ -200,7 +200,7 @@ Value=cyber60 schematic
 
 [Parameter2]
 Name=Revision
-Value=B1 - SMK
+Value=B2 - SMK
 
 [Configuration1]
 Name=Sources
