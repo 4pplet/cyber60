@@ -207,13 +207,17 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=SOQGEUBL
 
-[Parameter1]
-Name=Revision
-Value=B2 - MX
+[GeneratedDocument1]
+DocumentPath=Project Outputs for alps-cherry\Design Rule Check - cyber60-mx.html
+DItemRevisionGUID=
 
-[Parameter2]
+[Parameter1]
 Name=ProjectTitle
 Value=cyber60 schematic
+
+[Parameter2]
+Name=Revision
+Value=B2 - MX
 
 [Configuration1]
 Name=Sources
