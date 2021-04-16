@@ -4,7 +4,7 @@
 A DIY-friendly 60% using nRF52840 and ZMK: the cyber.
 
 ## Status:
-**CAUSION**: Use Rev A2 for MX, flipped transistor in A1. SMK and ALPS Rev A1 does not have this issue. Revision B1 have been tested and fixes made in B2. B2 should be safe to use, but not prototyped yet.
+**CAUTION**: Use Rev A2 for MX, flipped transistor in A1. SMK and ALPS Rev A1 does not have this issue. Revision B1 have been tested and fixes made in B2. B2 should be safe to use, but not prototyped yet.
 
 ## Software:
 - Link to zmk-fork: https://github.com/4pplet/zmk-config
