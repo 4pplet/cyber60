@@ -30,6 +30,7 @@ A DIY-friendly 60% using nRF52840 and ZMK: the cyber.
 - Properly verify charge current
 - Implement buzzer and RGB capslock-led in ZMK
 - Fork bootloader and add support for bootloader indication on capslock led.
+- Possibly adjust position of daughter board connector to better alight with the bakeneko (move the connector further in, from the edge), this would require rework of flexcut and underglow led positions.
 
 # MX-version
 ## Layout support cyber60 MX-version:
