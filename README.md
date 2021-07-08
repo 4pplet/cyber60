@@ -30,9 +30,10 @@ A DIY-friendly 60% using nRF52840 and ZMK: the cyber.
 - Properly verify charge current
 - Implement buzzer and RGB capslock-led in ZMK
 - Fork bootloader and add support for bootloader indication on capslock led.
-- (rev B3) Adjust position of daughter board connector to better alight with the bakeneko (move the connector further in, from the edge), this would require rework of flexcut and underglow led positions.
-- Change to ws2812C-2020 package for underglow, I find these easier to solder and they are lower current (C-version)
-- (rev B3) Align ANSI-enter stab rotation and PCB outline with the upcoming waffling60 release (B3)
+- (rev B3/C) Adjust position of daughter board connector to better alight with the bakeneko (move the connector further in, from the edge), this would require rework of flexcut and underglow led positions.
+- (rev B3/C) Change to ws2812C-2020 package for underglow, I find these easier to solder and they are lower current (C-version)
+- (rev B3/C) Align ANSI-enter stab rotation and PCB outline with the upcoming waffling60 release (B3)
+- (rev B3/C) Change split space support, makes it much easier to solder module (more space, no cuts in pads)
 - Make bootloader flash instruction (or link to a good instruction)
 - Make ZMK flash instruction (or link to a good instruction)
 
