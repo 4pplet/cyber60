@@ -140,6 +140,23 @@ GenerateClassCluster=0
 DocumentUniqueId=UMAPLPXN
 
 [Document7]
+DocumentPath=cyber60-alps-bkplate.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=UQQMBOXI
+
+[Document8]
 DocumentPath=2_cyber60-alps_matrix.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -156,7 +173,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=PDTDDDYM
 
-[Document8]
+[Document9]
 DocumentPath=4_cyber60-alps_power.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -173,7 +190,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=DPROKQQC
 
-[Document9]
+[Document10]
 DocumentPath=5_cyber60-alps_periferals.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
