@@ -207,9 +207,35 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=SOQGEUBL
 
-[GeneratedDocument1]
-DocumentPath=Project Outputs for alps-cherry\Design Rule Check - cyber60-alps.html
-DItemRevisionGUID=
+[ProjectVariant1]
+UniqueID=21A0FF84-B2A6-4E19-83C5-B7F6DD963EBC
+Description=All
+AllowFabrication=0
+ParameterCount=0
+VariationCount=0
+ParamVariationCount=0
+
+[ProjectVariant2]
+UniqueID=511D4F54-23CB-42AD-BAFA-C72C30258917
+Description=Bakeneko
+AllowFabrication=0
+ParameterCount=0
+VariationCount=4
+Variation1=Designator=CON301|UniqueId=\WPMIWBDJ\UBEMPYSQ|Kind=1|AlternatePart= 
+Variation2=Designator=D301|UniqueId=\WPMIWBDJ\SGXMXURL|Kind=1|AlternatePart= 
+Variation3=Designator=R301|UniqueId=\WPMIWBDJ\JQDVLFPN|Kind=1|AlternatePart= 
+Variation4=Designator=R302|UniqueId=\WPMIWBDJ\RJGIVQYB|Kind=1|AlternatePart= 
+ParamVariationCount=0
+
+[ProjectVariant3]
+UniqueID=7C73AD7F-5C6B-42CA-95F9-EFA07659556E
+Description=Tray
+AllowFabrication=0
+ParameterCount=0
+VariationCount=2
+Variation1=Designator=CON303|UniqueId=\WPMIWBDJ\MSOHXDPY|Kind=1|AlternatePart= 
+Variation2=Designator=D302|UniqueId=\WPMIWBDJ\VSCFAXYU|Kind=1|AlternatePart= 
+ParamVariationCount=0
 
 [Parameter1]
 Name=ProjectTitle

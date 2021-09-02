@@ -137,7 +137,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=UQQMBOXI
+DocumentUniqueId=RRTACWQX
 
 [Document7]
 DocumentPath=cyber60-mx.PrjPcbStructure
@@ -224,9 +224,35 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=SOQGEUBL
 
-[GeneratedDocument1]
-DocumentPath=Project Outputs for alps-cherry\Design Rule Check - cyber60-mx.html
-DItemRevisionGUID=
+[ProjectVariant1]
+UniqueID=F3ED404D-6E53-4584-A4EA-D044F54AF3AC
+Description=All
+AllowFabrication=0
+ParameterCount=0
+VariationCount=0
+ParamVariationCount=0
+
+[ProjectVariant2]
+UniqueID=6F4A4933-C311-4FED-96A1-D110C5A96458
+Description=Bakeneko
+AllowFabrication=0
+ParameterCount=0
+VariationCount=4
+Variation1=Designator=CON301|UniqueId=\WPMIWBDJ\UBEMPYSQ|Kind=1|AlternatePart= 
+Variation2=Designator=D301|UniqueId=\WPMIWBDJ\SGXMXURL|Kind=1|AlternatePart= 
+Variation3=Designator=R301|UniqueId=\WPMIWBDJ\JQDVLFPN|Kind=1|AlternatePart= 
+Variation4=Designator=R302|UniqueId=\WPMIWBDJ\RJGIVQYB|Kind=1|AlternatePart= 
+ParamVariationCount=0
+
+[ProjectVariant3]
+UniqueID=6EB08929-C025-43B9-BFF5-E91418F6BA9C
+Description=Tray
+AllowFabrication=0
+ParameterCount=0
+VariationCount=2
+Variation1=Designator=CON303|UniqueId=\WPMIWBDJ\MSOHXDPY|Kind=1|AlternatePart= 
+Variation2=Designator=D302|UniqueId=\WPMIWBDJ\VSCFAXYU|Kind=1|AlternatePart= 
+ParamVariationCount=0
 
 [Parameter1]
 Name=ProjectTitle
