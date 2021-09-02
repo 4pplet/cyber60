@@ -36,8 +36,6 @@ A DIY-friendly 60% using nRF52840 and ZMK: the cyber.
 ![alt text](./readme-images/layout_support_cyber60_Rev_C.jpg "Layout support")
 
 # MX-version:
-
-## Altium view of - cyber60 MX-version:
 ![alt text](./readme-images/cyber60-MX_Rev_C1_All.jpg "PCB View - Rev C")
 
 ## MX Revisions:
@@ -48,8 +46,6 @@ A DIY-friendly 60% using nRF52840 and ZMK: the cyber.
 - C1: Changing layout support for better solderability of module. Adding transistor cutoff for battery voltage measurement for no leak current. Switching to ws2812c in 2020-package. Rotating ANSI-enter stabilizer 180 degrees.
 
 # ALPS-version
-
-## Altium view of - cyber60 ALPS-version:
 ![alt text](./readme-images/cyber60-ALPS_Rev_C1_All.jpg "PCB View - Rev C")
 
 ## ALPS Revisions:
@@ -59,8 +55,6 @@ A DIY-friendly 60% using nRF52840 and ZMK: the cyber.
 - C1: Changing layout support for better solderability of module. Adding transistor cutoff for battery voltage measurement for no leak current. Switching to ws2812c in 2020-package. Rotating ANSI-enter stabilizer 180 degrees.
 
 # SMK-version
-
-## Altium view of - cyber60 SMK-version:
 ![alt text](./readme-images/cyber60-SMK_Rev_C1_All.jpg "PCB View - Rev C")
 
 ## SMK Revisions:
