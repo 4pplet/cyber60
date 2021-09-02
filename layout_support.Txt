@@ -3,5 +3,8 @@
 [{c:"#f0af4f",a:4,w:1.25,w2:1.75,l:true},"Caps Lock",{x:1.75,w:1.75},"Caps Lock",{c:"#cccccc"},"A","S","D","F","G","H","J","K","L",":\n;","\"\n'",{c:"#e09bd5",w:2.25},"Enter",{x:1.25},"ISO"],
 [{c:"#dbde54",w:1.25},"Shift\n\n\n\n\n\n\n1.25u","ISO",{x:0.75,w:2.25},"Shift",{c:"#cccccc"},"Z","X","C","V","B","N","M","<\n,",">\n.","?\n/",{c:"#dbde54",w:2.75},"Shift",{x:0.75,w:1.75},"Shift\n\n\n\n\n\n\n1.75u","Fn"],
 [{x:3,c:"#7dd190",w:1.25},"Ctrl",{w:1.25},"Win",{w:1.25},"Alt",{a:7,w:6.25},"",{a:4,w:1.25},"Alt",{w:1.25},"Win",{w:1.25},"Menu",{w:1.25},"Ctrl"],
-[{y:0.75,x:3,w:1.5},"Ctrl","Win",{w:1.5},"Alt",{a:5,w:7},"\nTSANGAN / WKL",{a:4,w:1.5},"Alt","Win",{w:1.5},"Ctrl"],
-[{x:3,w:1.25},"Ctrl",{w:1.25},"Win",{w:1.25},"Alt",{a:7,w:2.25},"",{w:1.25},"",{w:2.75},"",{a:4,w:1.25},"Alt",{w:1.25},"Win",{w:1.25},"Menu",{w:1.25},"Ctrl"]
+[{y:0.5,x:3,w:1.5},"Ctrl","Win",{w:1.5},"Alt",{a:5,w:7},"\nTSANGAN / WKL",{a:4,w:1.5},"Alt","Win",{w:1.5},"Ctrl"],
+[{x:3,w:1.5},"Ctrl","Win",{w:1.5},"Alt",{a:7,w:3},"","",{w:3},"",{a:4,w:1.5},"Alt","Win",{w:1.5},"Ctrl"],
+[{y:0.75,x:3,c:"#f4c9bd",w:1.5},"Ctrl",{w:1.25},"Alt",{w:1.5},"Cmd",{a:5,w:6.5},"\nAEK, Only supported on ALPS and SMK versions of the PCB!",{a:4,w:1.5},"Cmd",{w:1.25},"Alt",{w:1.5},"Ctrl"],
+[{x:3,w:1.5},"Ctrl",{w:1.25},"Alt",{w:1.5},"Cmd",{a:5,w:2.75},"\nAEK, Only supported on ALPS and SMK versions of the PCB!",{a:7},"",{a:5,w:2.75},"\nAEK, Only supported on ALPS and SMK versions of the PCB!",{a:4,w:1.5},"Cmd",{w:1.25},"Alt",{w:1.5},"Ctrl"],
+[{y:1.25,x:3,c:"#757575",w:1.25},"Ctrl",{w:1.25},"Win",{w:1.25},"Alt",{a:7,w:2.25},"",{w:1.25},"",{w:2.75},"",{a:4,w:1.25},"Alt",{w:1.25},"Win",{w:1.25},"Menu",{w:1.25},"Ctrl"]
