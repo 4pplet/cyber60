@@ -24,7 +24,7 @@ A DIY-friendly 60% using nRF52840 and ZMK: the cyber.
 - (rev b) Buzzer for indicator or sweet tunes
 - (rev b) Rotary encoder at right most posision in split backspace or off board
 - (rev b) Reverse polarity protection for battery
-- (rev c) Transistor stage for battery voltage measurement cutoff for no leak current when not measuring battery voltage.
+- (rev c) Transistor stage for battery voltage measurement cutoff for no leak current when not measuring battery voltage (like in rev A).
 
 ## Todo:
 - Properly verify current consumption
