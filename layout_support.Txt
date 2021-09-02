@@ -7,4 +7,4 @@
 [{x:3,w:1.5},"Ctrl","Win",{w:1.5},"Alt",{a:7,w:3},"","",{w:3},"",{a:4,w:1.5},"Alt","Win",{w:1.5},"Ctrl"],
 [{y:0.75,x:3,c:"#f4c9bd",w:1.5},"Ctrl",{w:1.25},"Alt",{w:1.5},"Cmd",{a:5,w:6.5},"\nAEK, Only supported on ALPS and SMK versions of the PCB!",{a:4,w:1.5},"Cmd",{w:1.25},"Alt",{w:1.5},"Ctrl"],
 [{x:3,w:1.5},"Ctrl",{w:1.25},"Alt",{w:1.5},"Cmd",{a:5,w:2.75},"\nAEK, Only supported on ALPS and SMK versions of the PCB!",{a:7},"",{a:5,w:2.75},"\nAEK, Only supported on ALPS and SMK versions of the PCB!",{a:4,w:1.5},"Cmd",{w:1.25},"Alt",{w:1.5},"Ctrl"],
-[{y:1.25,x:3,c:"#757575",w:1.25},"Ctrl",{w:1.25},"Win",{w:1.25},"Alt",{a:7,w:2.25},"",{w:1.25},"",{w:2.75},"",{a:4,w:1.25},"Alt",{w:1.25},"Win",{w:1.25},"Menu",{w:1.25},"Ctrl"]
+[{y:1,x:3,c:"#757575",w:1.25},"Ctrl",{w:1.25},"Win",{w:1.25},"Alt",{a:5,w:2.25},"\nDepricated, only supported on Rev A and B, Not C",{a:7,w:1.25},"",{a:5,w:2.75},"\nDepricated, only supported on Rev A and B, Not C",{a:4,w:1.25},"Alt",{w:1.25},"Win",{w:1.25},"Menu",{w:1.25},"Ctrl"]
