@@ -13,8 +13,8 @@ A DIY-friendly 60% using nRF52840 and ZMK: the cyber.
 
 ## Specs cyber60:
 - Module: Holyiot YJ-18010
-- Standard Tray Mount support
-- Bakeneko "rubber worm"-mount support (both unikorn and bakeneko v3).
+- Standard Tray Mount support (need battery cutout for internal battery)
+- "rubber worm"-mount support (both unikorn and bakeneko v3). Case still need battery cutout for internal battery.
 - Non constant drain battery measurement
 - Lipo charger for single cell 3.7V li-po/li-ion batteries
 - RGB-led under Capslock for multi function indicator (not on SMK-version)
