@@ -72,6 +72,40 @@ GenerateClassCluster=0
 DocumentUniqueId=QYTUGAVK
 
 [Document3]
+DocumentPath=cyber60-alps.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document4]
+DocumentPath=1_cyber60-alps_top.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=MBXHBRXV
+
+[Document5]
 DocumentPath=cyber60-alps.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -87,40 +121,6 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=UQQMBOXI
-
-[Document4]
-DocumentPath=4_cyber60-alps_power.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=DPROKQQC
-
-[Document5]
-DocumentPath=2_cyber60-alps_matrix.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=PDTDDDYM
 
 [Document6]
 DocumentPath=3_cyber60-alps_mcu.SchDoc
@@ -140,7 +140,7 @@ GenerateClassCluster=0
 DocumentUniqueId=UMAPLPXN
 
 [Document7]
-DocumentPath=1_cyber60-alps_top.SchDoc
+DocumentPath=2_cyber60-alps_matrix.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -154,10 +154,10 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=MBXHBRXV
+DocumentUniqueId=PDTDDDYM
 
 [Document8]
-DocumentPath=cyber60-alps.PrjPcbStructure
+DocumentPath=4_cyber60-alps_power.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -167,30 +167,13 @@ AnnotateOrder=-1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
+ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=DPROKQQC
 
 [Document9]
-DocumentPath=cyber60-alps.OutJob
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document10]
 DocumentPath=5_cyber60-alps_periferals.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -207,6 +190,36 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=SOQGEUBL
 
+[ProjectVariant1]
+UniqueID=21A0FF84-B2A6-4E19-83C5-B7F6DD963EBC
+Description=All
+AllowFabrication=0
+ParameterCount=0
+VariationCount=0
+ParamVariationCount=0
+
+[ProjectVariant2]
+UniqueID=511D4F54-23CB-42AD-BAFA-C72C30258917
+Description=Bakeneko
+AllowFabrication=0
+ParameterCount=0
+VariationCount=4
+Variation1=Designator=CON301|UniqueId=\WPMIWBDJ\UBEMPYSQ|Kind=1|AlternatePart= 
+Variation2=Designator=D301|UniqueId=\WPMIWBDJ\SGXMXURL|Kind=1|AlternatePart= 
+Variation3=Designator=R301|UniqueId=\WPMIWBDJ\JQDVLFPN|Kind=1|AlternatePart= 
+Variation4=Designator=R302|UniqueId=\WPMIWBDJ\RJGIVQYB|Kind=1|AlternatePart= 
+ParamVariationCount=0
+
+[ProjectVariant3]
+UniqueID=7C73AD7F-5C6B-42CA-95F9-EFA07659556E
+Description=Tray
+AllowFabrication=0
+ParameterCount=0
+VariationCount=2
+Variation1=Designator=CON303|UniqueId=\WPMIWBDJ\MSOHXDPY|Kind=1|AlternatePart= 
+Variation2=Designator=D302|UniqueId=\WPMIWBDJ\VSCFAXYU|Kind=1|AlternatePart= 
+ParamVariationCount=0
+
 [GeneratedDocument1]
 DocumentPath=Project Outputs for alps-cherry\Design Rule Check - cyber60-alps.html
 DItemRevisionGUID=
@@ -217,7 +230,7 @@ Value=cyber60 schematic
 
 [Parameter2]
 Name=Revision
-Value=B2 - ALPS
+Value=C1 - ALPS
 
 [Configuration1]
 Name=Sources
