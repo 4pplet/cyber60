@@ -220,6 +220,10 @@ Variation1=Designator=CON303|UniqueId=\WPMIWBDJ\MSOHXDPY|Kind=1|AlternatePart=
 Variation2=Designator=D302|UniqueId=\WPMIWBDJ\VSCFAXYU|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for alps-cherry\Design Rule Check - cyber60-smk.html
+DItemRevisionGUID=
+
 [Parameter1]
 Name=ProjectTitle
 Value=cyber60 schematic

@@ -157,23 +157,6 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document8]
-DocumentPath=cyber60-mx-bkplate.PcbDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=UQQMBOXI
-
-[Document9]
 DocumentPath=3_cyber60-mx_mcu.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -190,7 +173,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=UMAPLPXN
 
-[Document10]
+[Document9]
 DocumentPath=cyber60-mx.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -207,7 +190,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document11]
+[Document10]
 DocumentPath=5_cyber60-mx_periferals.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -253,6 +236,10 @@ VariationCount=2
 Variation1=Designator=CON303|UniqueId=\WPMIWBDJ\MSOHXDPY|Kind=1|AlternatePart= 
 Variation2=Designator=D302|UniqueId=\WPMIWBDJ\VSCFAXYU|Kind=1|AlternatePart= 
 ParamVariationCount=0
+
+[GeneratedDocument1]
+DocumentPath=Project Outputs for alps-cherry\Design Rule Check - cyber60-mx.html
+DItemRevisionGUID=
 
 [Parameter1]
 Name=ProjectTitle
