@@ -33,7 +33,7 @@ A DIY-friendly 60% using nRF52840 and ZMK: the cyber.
 - Fork bootloader and add support for bootloader indication on capslock led.
 
 # Layout support:
-![alt text](./readme-images/layout_support_cyber60_Rev_C1.jpg "Layout support")
+![alt text](./readme-images/layout_support_cyber60_Rev_C.jpg "Layout support")
 
 # MX-version:
 
