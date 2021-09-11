@@ -33,7 +33,7 @@ A DIY-friendly 60% using nRF52840 and ZMK: the cyber.
 - Implement buzzer and RGB capslock-led in ZMK
 - Fork bootloader and add support for bootloader indication on capslock led.
 
-# Layout support:
+# Layout support (non hotswap):
 ![alt text](./readme-images/layout_support_cyber60_Rev_C.jpg "Layout support")
 
 # MX-version:
@@ -63,6 +63,15 @@ A DIY-friendly 60% using nRF52840 and ZMK: the cyber.
 - B1: (prerelease) - Adding underglow, buzzer and rotary support. Simplifying voltage measurement circuit (tiny bit more leak current). Changing matrix to duplex.
 - B2: Fixing underglow issue, adding n mos to fully turn off the p mos that powers the underglow. Adding reverse polarity protection for the battery.
 - C1: Changing layout support for better solderability of module. Adding transistor cutoff for battery voltage measurement for no leak current. Switching to ws2812c in 2020-package. Rotating ANSI-enter stabilizer 180 degrees.
+
+# MX Hot swap-version
+![alt text](./readme-images/cyber60-MXHS_Rev_C1_All.jpg "PCB View - Rev C")
+
+## Layout support:
+![alt text](./readme-images/layout_support_cyber60HS_Rev_C.jpg "Layout support")
+
+## MXHS Revisions:
+- C1: Initial revision, based on MX C1.
 
 ## Note:
 - Voltage measurement and power consumption for revision A1/A2 is not fully verified
