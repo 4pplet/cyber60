@@ -15,7 +15,7 @@ LifeCycleDefinitionGUID=
 RevisionNamingSchemeGUID=
 
 [OutputGroup1]
-Name=cyber60-mx.OutJob
+Name=cyber60-mxhs.OutJob
 Description=
 TargetOutputMedium=Prints
 VariantName=[No Variations]
@@ -369,7 +369,7 @@ PcbPrintPreferences19=
 [PublishSettings]
 OutputFilePath2=C:\Users\Stefan\Documents\git\Steezy60-ALPS\Project Outputs for alps-cherry\2019-11-30\Job1.PDF
 ReleaseManaged2=1
-OutputBasePath2=Project Outputs for Free Documents
+OutputBasePath2=Project Outputs for alps-cherry
 OutputPathMedia2==CurrentDate
 OutputPathMediaValue2==CurrentDate
 OutputPathOutputer2=[Output Type]
@@ -396,7 +396,7 @@ PDFACompliance2=Disabled
 PDFVersion2=Default
 OutputFilePath3=C:\Users\Stefan Sundin\Documents\GitHub\cyber60\cyber60-mx\Project Outputs for alps-cherry\2021-09-02\
 ReleaseManaged3=1
-OutputBasePath3=Project Outputs for Free Documents
+OutputBasePath3=Project Outputs for alps-cherry
 OutputPathMedia3==CurrentDate
 OutputPathMediaValue3==CurrentDate
 OutputPathOutputer3=[Output Type]
@@ -409,7 +409,7 @@ OutputFileNameSpecial3=
 OpenOutput3=0
 OutputFilePath4=C:\Users\Stefan\Documents\GitHub\AEKISO60\Project Outputs for alps-cherry\2020-10-09\Prints.PDF
 ReleaseManaged4=1
-OutputBasePath4=Project Outputs for Free Documents
+OutputBasePath4=Project Outputs for alps-cherry
 OutputPathMedia4==CurrentDate
 OutputPathMediaValue4==CurrentDate
 OutputPathOutputer4=[Output Type]
@@ -436,7 +436,7 @@ PDFACompliance4=Disabled
 PDFVersion4=Default
 OutputFilePath5=C:\Users\Stefan\Documents\git\Steezy60\Steezy60-ALPS\Project Outputs for alps-cherry\Job1.PDF
 ReleaseManaged5=1
-OutputBasePath5=Project Outputs for Free Documents
+OutputBasePath5=Project Outputs for alps-cherry
 OutputPathMedia5==CurrentDate
 OutputPathMediaValue5==CurrentDate
 OutputPathOutputer5=[Output Type]
