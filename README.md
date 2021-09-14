@@ -7,8 +7,8 @@ A DIY-friendly 60% using nRF52840 and ZMK: the cyber.
 **CAUTION**: Revision B2 is fully tested and works. If you want to use Revision A: Use Rev A2 for MX or Rev A1 for SMK and ALPS. Rev A1 MX has a flipped transistor. Revision C is currently being prototyped, no ZMK implementation is done.
 
 ## Software:
-- Link to zmk-fork: https://github.com/4pplet/zmk-config
-- Link to zmk-config (uf2-files in actions): https://github.com/4pplet/zmk-config
+- Link to zmk-fork: https://github.com/4pplet/zmk
+- Link to zmk-config (uf2-files in actions): https://github.com/4pplet/zmk-config-4pplet
 - Bootloader used: https://github.com/4pplet/Adafruit_nRF52_Bootloader (check actions for precompiled hex, make sure to use bootloader for correct revision)
 
 ## Specs cyber60:
