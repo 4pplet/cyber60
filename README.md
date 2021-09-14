@@ -9,7 +9,7 @@ A DIY-friendly 60% using nRF52840 and ZMK: the cyber.
 ## Software:
 - Link to zmk-fork: https://github.com/4pplet/zmk-config
 - Link to zmk-config (uf2-files in actions): https://github.com/4pplet/zmk-config
-- Bootloader used: pca10056_bootloader-0.3.2_s140_6.1.1.hex
+- Bootloader used: https://github.com/4pplet/Adafruit_nRF52_Bootloader (check actions for precompiled hex, make sure to use bootloader for correct revision)
 
 ## Specs cyber60:
 - Module: Holyiot YJ-18010
