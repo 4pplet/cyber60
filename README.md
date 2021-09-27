@@ -4,7 +4,7 @@
 A DIY-friendly 60% using nRF52840 and ZMK: the cyber.
 
 ## Status:
-**CAUTION**: Revision B2 is fully tested and works. If you want to use Revision A: Use Rev A2 for MX or Rev A1 for SMK and ALPS. Rev A1 MX has a flipped transistor. Revision C is currently being prototyped, no ZMK implementation is done.
+Revision B2 is fully tested and works. Rev C1 is being tested, preliminary findings: Everyting seems to work fine. Please read release notes for specific release before manufacturing.
 
 ## Software:
 - Link to zmk-fork: https://github.com/4pplet/zmk
