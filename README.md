@@ -31,7 +31,7 @@ Revision B2 is fully tested and works. Rev C1 is being tested, preliminary findi
 - Properly verify current consumption
 - Properly verify charge current
 - Implement buzzer and RGB capslock-led in ZMK
-- Fork bootloader and add support for bootloader indication on capslock led.
+- Improve silkscreen for RGB-led orientation.
 
 # Layout support (non hotswap):
 ![alt text](./readme-images/layout_support_cyber60_Rev_C.jpg "Layout support")
