@@ -218,10 +218,6 @@ VariationCount=1
 Variation1=Designator=CON303|UniqueId=\WPMIWBDJ\HAJFCQPI|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
-[GeneratedDocument1]
-DocumentPath=Project Outputs for alps-cherry\Design Rule Check - cyber60-mxhs.html
-DItemRevisionGUID=
-
 [Parameter1]
 Name=ProjectTitle
 Value=cyber60 schematic
