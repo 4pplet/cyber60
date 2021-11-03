@@ -4,7 +4,7 @@
 A DIY-friendly 60% using nRF52840 and ZMK: the cyber.
 
 ## Status:
-Revision B2 is fully tested and works. Rev C1 is being tested, preliminary findings: Everyting seems to work fine. Please read release notes for specific release before manufacturing.
+Revision C1 is mostly tested and works (still to do is to verify charge current). Please read release notes for specific release before manufacturing.
 
 ## Software:
 - Link to zmk-fork: https://github.com/4pplet/zmk
@@ -71,8 +71,5 @@ Revision B2 is fully tested and works. Rev C1 is being tested, preliminary findi
 
 ## MXHS Revisions:
 - C1: Initial revision, based on MX C1.
-
-## Note:
-- Power consumption and charge current is not fully verified
 
 <a href='https://ko-fi.com/4pplet' target='_blank'><img height='35' style='border:0px;height:46px;' src='https://az743702.vo.msecnd.net/cdn/kofi3.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com' />
