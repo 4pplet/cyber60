@@ -30,7 +30,6 @@ Revision B2 is fully tested and works. Rev C1 is being tested, preliminary findi
 ## Todo:
 - Properly verify current consumption
 - Properly verify charge current
-- Implement buzzer and RGB capslock-led in ZMK
 - Improve silkscreen for RGB-led orientation.
 
 # Layout support (non hotswap):
@@ -74,8 +73,6 @@ Revision B2 is fully tested and works. Rev C1 is being tested, preliminary findi
 - C1: Initial revision, based on MX C1.
 
 ## Note:
-- Voltage measurement and power consumption for revision A1/A2 is not fully verified
-- RGB-led is not implemented in ZMK yet
-- Buzzer support is not implemented in ZMK yet
+- Power consumption and charge current is not fully verified
 
 <a href='https://ko-fi.com/4pplet' target='_blank'><img height='35' style='border:0px;height:46px;' src='https://az743702.vo.msecnd.net/cdn/kofi3.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com' />
