@@ -3,8 +3,8 @@
 I use and recommend a j-link for flashing the bootloader, for using other programmers for flashing the bootloader, I can recommend to check jorics wiki for info: https://github.com/joric/nrfmicro/wiki/Bootloader
 
 ## TLDR:
-Do step 2 here: https://learn.adafruit.com/bluefruit-nrf52-feather-learning-guide/flashing-the-bootloader
-But use the bootloader from here: https://github.com/4pplet/Adafruit_nRF52_Bootloader/releases
+- Do step 2 here: https://learn.adafruit.com/bluefruit-nrf52-feather-learning-guide/flashing-the-bootloader
+- But use the bootloader from here: https://github.com/4pplet/Adafruit_nRF52_Bootloader/releases
 
 ## Mac/Linux:
 - Download and install nrfprog
@@ -13,6 +13,7 @@ https://github.com/4pplet/Adafruit_nRF52_Bootloader/releases
 You need the bootloader for the correct revision of your cyber60. Revision A and B share the same bootloader. If unsure: Look at the PCB, the revision will be stated under the name cyber60. Revsion here is the letter A, B, C etc.
 - Open terminal
 - Navigate to directory of bootloader
+- Connect USB/power to the PCB and connect the programmer to the programming interface on the PCB (either the tag-connect or the 2.54 header)
 - Run:
 ```nrfjprog --program [bootloader name].hex --chiperase -f nrf52 --reset```
 - Now bootloader should be flashed if all went well and it should show up as a removable device called CYBER_ followed by it's revision
@@ -27,6 +28,7 @@ You need the bootloader for the correct revision of your cyber60. Revision A and
 Usually in  C:\Program Files (x86)\Nordic Semiconductor\nrf-command-line-tools\bin\
 - Open commandline
 - Navigate to directory
+- Connect USB/power to the PCB and connect the programmer to the programming interface on the PCB (either the tag-connect or the 2.54 header)
 - Run: 
 ```nrfjprog.exe --program [bootloader name].hex --chiperase -f nrf52 --reset```
 - Now bootloader should be flashed if all went well and it should show up as a removable device called CYBER_ followed by it's revision
