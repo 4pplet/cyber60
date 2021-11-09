@@ -11,6 +11,9 @@ Revision C1 is mostly tested and works (still to do is to verify charge current)
 - Link to zmk-config (uf2-files in actions): https://github.com/4pplet/zmk-config-4pplet
 - Bootloader used: https://github.com/4pplet/Adafruit_nRF52_Bootloader (check actions for precompiled hex, make sure to use bootloader for correct revision)
 
+## Instructions:
+How to flash bootloader: [Link](./BL_FLASH_INSTRUCTION.md)
+
 ## Specs cyber60:
 - Module: Holyiot YJ-18010
 - Standard Tray Mount support (need battery cutout for internal battery)
