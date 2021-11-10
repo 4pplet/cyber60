@@ -6,7 +6,7 @@ I use and recommend a j-link for flashing the bootloader, for using other progra
 - Do step 2 here: https://learn.adafruit.com/bluefruit-nrf52-feather-learning-guide/flashing-the-bootloader
 - But use the bootloader from here: https://github.com/4pplet/Adafruit_nRF52_Bootloader/releases
 
-If you already have the bootloader flashed or have bought a PCB which has the bootloader pre-flashed, you can use the update uf2 file in the bootloader release to update the bootloader.
+If you already have the bootloader flashed or have bought a PCB which has the bootloader pre-flashed, you can use the update uf2 file in the bootloader release to update the bootloader. Make sure to use the update file for the correct revision of the PCB.
 
 ## Mac/Linux:
 - Download and install nrfprog
