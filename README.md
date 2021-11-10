@@ -24,16 +24,16 @@ Revision C1 is mostly tested and works (still to do is to verify charge current)
 - Possible to build with just a soldering iron (no underside pads etc)
 - Three versions running the same FW-implementation. One MX, one ALPS, one SMK
 - USB horizontal placement is classic GH60, same as GH60, plain60, voyager60 etc.
-- (rev b) Underglow for cozy glow
-- (rev b) Buzzer for indicator or sweet tunes
-- (rev b) Rotary encoder at right most posision in split backspace or off board
-- (rev b) Reverse polarity protection for battery
-- (rev c) Transistor stage for battery voltage measurement cutoff for no leak current when not measuring battery voltage (like in rev A).
+- (rev b and newer) Underglow for cozy glow
+- (rev b and newer) Buzzer for indicator or sweet tunes
+- (rev b and newer) Rotary encoder at right most posision in split backspace or off board
+- (rev b and newer) Reverse polarity protection for battery
+- (rev c and newer) Transistor stage for battery voltage measurement cutoff for no leak current when not measuring battery voltage (like in rev A).
 
 ## Todo:
 - Properly verify current consumption
 - Properly verify charge current
-- Improve silkscreen for RGB-led orientation.
+- Improve silkscreen for RGB-led orientation and soldermask cover on non circular pads on bottom layer.
 
 # Layout support (non hotswap):
 ![alt text](./readme-images/layout_support_cyber60_Rev_C.jpg "Layout support")
