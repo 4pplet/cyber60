@@ -12,6 +12,7 @@ Revision C1 is mostly tested and works (still to do is to verify charge current)
 
 ## Instructions:
 How to flash/update bootloader: [Link](./BL_FLASH_INSTRUCTION.md)
+How to flash/update ZMK: IN WORK
 
 ## Specs cyber60:
 - Module: Holyiot YJ-18010
