@@ -47,6 +47,7 @@ Revision C1 is mostly tested and works (still to do is to verify charge current)
 - B1 (prerelease) - Adding underglow, buzzer and rotary support. Simplifying voltage measurement circuit (tiny bit more leak current). Changing matrix to duplex.
 - B2: Fixing underglow issue, adding n mos to fully turn off the p mos that powers the underglow. Adding reverse polarity protection for the battery.
 - C1: Changing layout support for better solderability of module. Adding transistor cutoff for battery voltage measurement for no leak current. Switching to ws2812c in 2020-package. Rotating ANSI-enter stabilizer 180 degrees.
+- C2: Minor adjustments to pads and soldermask
 
 # ALPS-version
 ![alt text](./readme-images/cyber60-ALPS_Rev_C1_All.jpg "PCB View - Rev C")
@@ -56,6 +57,7 @@ Revision C1 is mostly tested and works (still to do is to verify charge current)
 - B1 (prerelease) - Adding underglow, buzzer and rotary support. Simplifying voltage measurement circuit (tiny bit more leak current). Changing matrix to duplex.
 - B2: Fixing underglow issue, adding n mos to fully turn off the p mos that powers the underglow. Adding reverse polarity protection for the battery.
 - C1: Changing layout support for better solderability of module. Adding transistor cutoff for battery voltage measurement for no leak current. Switching to ws2812c in 2020-package. Rotating ANSI-enter stabilizer 180 degrees.
+- C2: Minor adjustments to pads and soldermask
 
 # SMK-version
 ![alt text](./readme-images/cyber60-SMK_Rev_C1_All.jpg "PCB View - Rev C")
@@ -65,6 +67,7 @@ Revision C1 is mostly tested and works (still to do is to verify charge current)
 - B1: (prerelease) - Adding underglow, buzzer and rotary support. Simplifying voltage measurement circuit (tiny bit more leak current). Changing matrix to duplex.
 - B2: Fixing underglow issue, adding n mos to fully turn off the p mos that powers the underglow. Adding reverse polarity protection for the battery.
 - C1: Changing layout support for better solderability of module. Adding transistor cutoff for battery voltage measurement for no leak current. Switching to ws2812c in 2020-package. Rotating ANSI-enter stabilizer 180 degrees.
+- C2: Minor adjustments to pads and soldermask
 
 # MX Hot swap-version
 ![alt text](./readme-images/cyber60-MXHS_Rev_C1_All.jpg "PCB View - Rev C")
@@ -74,5 +77,6 @@ Revision C1 is mostly tested and works (still to do is to verify charge current)
 
 ## MXHS Revisions:
 - C1: Initial revision, based on MX C1.
+- C2: Minor adjustments to pads and soldermask
 
 <a href='https://ko-fi.com/4pplet' target='_blank'><img height='35' style='border:0px;height:46px;' src='https://az743702.vo.msecnd.net/cdn/kofi3.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com' />
