@@ -37,7 +37,7 @@ Revision C3 is mostly tested and works. Please read release notes for specific r
 
 # Layout support (non hotswap):
 ![alt text](./readme-images/layout_support_cyber60_Rev_C.jpg "Layout support")
-**Note: Only 2U stabilizers are supported for 3U space due to space limitations on the PCB. Rekommended 3U spacebars are modern 3U GMK bars, they support both 2U and 3U.**
+**Note: Only 2U stabilizers are supported for 3U space due to space limitations on the PCB. Recommended 3U spacebars are modern 3U GMK bars, they support both 2U and 3U.**
 
 # MX-version:
 ![alt text](./readme-images/cyber60-MX_Rev_C1_All.jpg "PCB View - Rev C")
