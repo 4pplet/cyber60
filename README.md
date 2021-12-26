@@ -4,7 +4,7 @@
 A DIY-friendly 60% using nRF52840 and ZMK: the cyber.
 
 ## Status:
-Revision C1 is mostly tested and works (still to do is to verify charge current). Please read release notes for specific release before manufacturing.
+Revision C3 is mostly tested and works. Please read release notes for specific release before manufacturing.
 
 ## Software:
 - Link to zmk-fork: https://github.com/4pplet/zmk
@@ -37,6 +37,7 @@ Revision C1 is mostly tested and works (still to do is to verify charge current)
 
 # Layout support (non hotswap):
 ![alt text](./readme-images/layout_support_cyber60_Rev_C.jpg "Layout support")
+**Note: Only 2U stabilizers are supported for 3U space due to space limitations on the PCB.**
 
 # MX-version:
 ![alt text](./readme-images/cyber60-MX_Rev_C1_All.jpg "PCB View - Rev C")
