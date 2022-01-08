@@ -22,7 +22,7 @@ You need the bootloader for the correct revision of your cyber60. Revision A and
 - If flash went well, but it's not showing up. Try to cycle power of the PCB (unplug USB and battery then reconnect) and you should be able to enter bootloader (double click on reset-button) and flash the PCB.
 
 ## Windows:
-- Install nrf-command-line-tools
+- Install nrf-command-line-tools: https://www.nordicsemi.com/Products/Development-tools/nrf-command-line-tools/download
 - Download bootloader from here (.hex-file): 
 https://github.com/4pplet/Adafruit_nRF52_Bootloader/releases
 You need the bootloader for the correct revision of your cyber60. Revision A and B share the same bootloader. If unsure: Look at the PCB, the revision will be stated under the name cyber60. Revsion here is the letter A, B, C etc.
