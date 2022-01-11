@@ -31,7 +31,7 @@ Revision C3 is mostly tested and works. Please read release notes for specific r
 - (rev c and newer) Transistor stage for battery voltage measurement cutoff for no leak current when not measuring battery voltage (like in rev A).
 
 ## Todo:
-- Update split space to 2.75u + 1.5u + 2.75u instead of 3u + 1u + 3u, for better stabilizer support. Only 2U PCB-stabilizers is currently supported for 3u, which is not ideal. 3U stabs do not fit.
+- Update split space to 2.75u + 1u + 2.75u instead of 3u + 1u + 3u, for better stabilizer support. Only 2U PCB-stabilizers is currently supported for 3u, which is not ideal. 3U stabs do not fit.
 
 # Layout support (non hotswap):
 ![alt text](./readme-images/layout_support_cyber60_Rev_C.jpg "Layout support")
