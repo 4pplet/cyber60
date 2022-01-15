@@ -23,6 +23,7 @@ You need the bootloader for the correct revision of your cyber60. Revision A and
 
 ## Windows:
 - Install nrf-command-line-tools: https://www.nordicsemi.com/Products/Development-tools/nrf-command-line-tools/download
+- Install J-link drivers: https://www.segger.com/downloads/jlink/
 - Download bootloader from here (.hex-file): 
 https://github.com/4pplet/Adafruit_nRF52_Bootloader/releases
 You need the bootloader for the correct revision of your cyber60. Revision A and B share the same bootloader. If unsure: Look at the PCB, the revision will be stated under the name cyber60. Revsion here is the letter A, B, C etc.
