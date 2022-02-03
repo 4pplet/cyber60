@@ -4,7 +4,7 @@
 A DIY-friendly 60% using nRF52840 and ZMK: the cyber.
 
 ## Status:
-Revision C3 is mostly tested and works. Please read release notes for specific release before manufacturing. I've added the pre-release of revision D with updated split space layout. I will up the routing a bit, but funcitonally, the pre-release will be identical to the final release. Files are still untested, so use at your own risk, untill it's been verified.
+Revision C3 is mostly tested and works. Please read release notes for specific release before manufacturing. I've added the pre-release of revision D with updated split space layout. I will clean up the routing a bit, but funcitonally, the pre-release will be identical to the final release. Files are still untested, so use at your own risk, untill it's been verified.
 
 ## Software:
 - Link to zmk-fork: https://github.com/4pplet/zmk
