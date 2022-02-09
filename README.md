@@ -6,6 +6,8 @@ A DIY-friendly 60% using nRF52840 and ZMK: the cyber.
 ## Status:
 Revision C3 is mostly tested and works. Please read release notes for specific release before manufacturing. I've added the release of revision D with updated split space layout. Files are still untested, so use at your own risk, untill it has been verified.
 
+Split space has been updated to 2.75u + 1u + 2.75u (6.5u split) instead of 3u + 1u + 3u (7u split) in the lates revision (D) for better stabilizer support. Only 2U PCB-stabilizers was previously supported for 3u, which is not ideal but 3U stabs do not fit due to the bluetooth module placment. 6.5u split is very similar in typing, but it will only work in WK or HHKB layout, not WKL.
+
 ## Software:
 - Link to zmk-fork: https://github.com/4pplet/zmk
 - Link to zmk-config (uf2-files in actions): https://github.com/4pplet/zmk-config-4pplet
@@ -31,11 +33,12 @@ Revision C3 is mostly tested and works. Please read release notes for specific r
 - (rev c and newer) Transistor stage for battery voltage measurement cutoff for no leak current when not measuring battery voltage (like in rev A).
 
 ## Todo:
-- Update split space to 2.75u + 1u + 2.75u instead of 3u + 1u + 3u, for better stabilizer support. Only 2U PCB-stabilizers is currently supported for 3u, which is not ideal. 3U stabs do not fit. This split is very similar in typing, but it will only work in WK or HHKB layout, not WKL.
+- Verify revision D hardware
+- Make bootloader and ZMK implementation of revision D. Code for recision C can be used for now, it is fully compatible with revision D.
 
 # Layout support (non hotswap):
 ![alt text](./readme-images/layout_support_cyber60_Rev_D.jpg "Layout support")
-**Note: Only 2U PCB-mount stabilizers are supported for 3U space due to space limitations on the PCB. For use with 3U stabilizers, plate mount is needed.**
+**Note: No PCB mount stabilizer is supported for 6.5u, if 6.5u is used, a plate mount stabilizer is required.**
 
 # MX-version:
 ![alt text](./readme-images/cyber60-MX_Rev_D1_Tray.png "PCB View - Rev D")
@@ -61,7 +64,7 @@ Revision C3 is mostly tested and works. Please read release notes for specific r
 - D1: Removed 3U split space support
 
 # SMK-version
-![alt text](./readme-images/cyber60-SMK_Rev_D1_Tray "PCB View - Rev D")
+![alt text](./readme-images/cyber60-SMK_Rev_D1_Tray.png "PCB View - Rev D")
 
 ## SMK Revisions:
 - A1: Initial revision/prototype, builds on ALPS rev A1
@@ -72,7 +75,7 @@ Revision C3 is mostly tested and works. Please read release notes for specific r
 - D1: Removed 3U split space support
 
 # MX Hot swap-version
-![alt text](./readme-images/cyber60-MXHS_Rev_D1_Tray "PCB View - Rev D")
+![alt text](./readme-images/cyber60-MXHS_Rev_D1_Tray.png "PCB View - Rev D")
 
 ## Layout support:
 ![alt text](./readme-images/layout_support_cyber60HS_Rev_D.jpg "Layout support")
