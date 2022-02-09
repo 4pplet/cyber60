@@ -4,7 +4,7 @@
 A DIY-friendly 60% using nRF52840 and ZMK: the cyber.
 
 ## Status:
-Revision C3 is mostly tested and works. Please read release notes for specific release before manufacturing. I've added the pre-release of revision D with updated split space layout. I will clean up the routing a bit, but funcitonally, the pre-release will be identical to the final release. Files are still untested, so use at your own risk, untill it's been verified.
+Revision C3 is mostly tested and works. Please read release notes for specific release before manufacturing. I've added the release of revision D with updated split space layout. Files are still untested, so use at your own risk, untill it has been verified.
 
 ## Software:
 - Link to zmk-fork: https://github.com/4pplet/zmk
@@ -34,11 +34,11 @@ Revision C3 is mostly tested and works. Please read release notes for specific r
 - Update split space to 2.75u + 1u + 2.75u instead of 3u + 1u + 3u, for better stabilizer support. Only 2U PCB-stabilizers is currently supported for 3u, which is not ideal. 3U stabs do not fit. This split is very similar in typing, but it will only work in WK or HHKB layout, not WKL.
 
 # Layout support (non hotswap):
-![alt text](./readme-images/layout_support_cyber60_Rev_C.jpg "Layout support")
+![alt text](./readme-images/layout_support_cyber60_Rev_D.jpg "Layout support")
 **Note: Only 2U PCB-mount stabilizers are supported for 3U space due to space limitations on the PCB. For use with 3U stabilizers, plate mount is needed.**
 
 # MX-version:
-![alt text](./readme-images/cyber60-MX_Rev_C1_All.jpg "PCB View - Rev C")
+![alt text](./readme-images/cyber60-MX_Rev_D1_Tray.png "PCB View - Rev D")
 
 ## MX Revisions:
 - A1 - initial revision/prototype
@@ -47,9 +47,10 @@ Revision C3 is mostly tested and works. Please read release notes for specific r
 - B2: Fixing underglow issue, adding n mos to fully turn off the p mos that powers the underglow. Adding reverse polarity protection for the battery.
 - C1: Changing layout support for better solderability of module. Adding transistor cutoff for battery voltage measurement for no leak current. Switching to ws2812c in 2020-package. Rotating ANSI-enter stabilizer 180 degrees.
 - C2: Minor adjustments to pads and soldermask
+- D1: Removed 3U split space support, added 6.5u split into 2.75u + 1u + 2.75u.
 
 # ALPS-version
-![alt text](./readme-images/cyber60-ALPS_Rev_C1_All.jpg "PCB View - Rev C")
+![alt text](./readme-images/cyber60-ALPS_Rev_D1_Tray.png "PCB View - Rev D")
 
 ## ALPS Revisions:
 - A1 - initial revision/prototype, builds on MX rev A2
@@ -57,9 +58,10 @@ Revision C3 is mostly tested and works. Please read release notes for specific r
 - B2: Fixing underglow issue, adding n mos to fully turn off the p mos that powers the underglow. Adding reverse polarity protection for the battery.
 - C1: Changing layout support for better solderability of module. Adding transistor cutoff for battery voltage measurement for no leak current. Switching to ws2812c in 2020-package. Rotating ANSI-enter stabilizer 180 degrees.
 - C2: Minor adjustments to pads and soldermask
+- D1: Removed 3U split space support
 
 # SMK-version
-![alt text](./readme-images/cyber60-SMK_Rev_C1_All.jpg "PCB View - Rev C")
+![alt text](./readme-images/cyber60-SMK_Rev_D1_Tray "PCB View - Rev D")
 
 ## SMK Revisions:
 - A1: Initial revision/prototype, builds on ALPS rev A1
@@ -67,15 +69,17 @@ Revision C3 is mostly tested and works. Please read release notes for specific r
 - B2: Fixing underglow issue, adding n mos to fully turn off the p mos that powers the underglow. Adding reverse polarity protection for the battery.
 - C1: Changing layout support for better solderability of module. Adding transistor cutoff for battery voltage measurement for no leak current. Switching to ws2812c in 2020-package. Rotating ANSI-enter stabilizer 180 degrees.
 - C2: Minor adjustments to pads and soldermask
+- D1: Removed 3U split space support
 
 # MX Hot swap-version
-![alt text](./readme-images/cyber60-MXHS_Rev_C1_All.jpg "PCB View - Rev C")
+![alt text](./readme-images/cyber60-MXHS_Rev_D1_Tray "PCB View - Rev D")
 
 ## Layout support:
-![alt text](./readme-images/layout_support_cyber60HS_Rev_C.jpg "Layout support")
+![alt text](./readme-images/layout_support_cyber60HS_Rev_D.jpg "Layout support")
 
 ## MXHS Revisions:
 - C1: Initial revision, based on MX C1.
 - C2: Minor adjustments to pads and soldermask
+- D1: Removed 3U split space support
 
 <a href='https://ko-fi.com/4pplet' target='_blank'><img height='35' style='border:0px;height:46px;' src='https://az743702.vo.msecnd.net/cdn/kofi3.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com' />
