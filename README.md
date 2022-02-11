@@ -8,6 +8,9 @@ Revision C3 is mostly tested and works. Please read release notes for specific r
 
 Split space has been updated to 2.75u + 1u + 2.75u (6.5u split) instead of 3u + 1u + 3u (7u split) in the lates revision (D) for better stabilizer support. Only 2U PCB-stabilizers was previously supported for 3u, which is not ideal but 3U stabs do not fit due to the bluetooth module placment. 6.5u split is very similar in typing, but it will only work in WK or HHKB layout, not WKL.
 
+## Availability:
+As an option to DIY, I'll try and keep these available for purchase here: https://4pplet.com/ For DIY, the production files are avaliable in releases.
+
 ## Software:
 - Link to zmk-fork: https://github.com/4pplet/zmk
 - Link to zmk-config (uf2-files in actions): https://github.com/4pplet/zmk-config-4pplet
