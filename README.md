@@ -37,6 +37,7 @@ As an option to DIY, I'll try and keep these available for purchase here: https:
 
 ## Todo:
 - Verify revision D hardware
+- Implement anti-shear hotswap footprints for the mx hotswap version.
 - Make bootloader and ZMK implementation of revision D. Code for recision C can be used for now, it is fully compatible with revision D.
 
 # Layout support (non hotswap):
