@@ -31,7 +31,7 @@ As an option to DIY, I'll try and keep these available for purchase here: https:
 - USB horizontal placement is classic GH60, same as GH60, plain60, voyager60 etc.
 - (rev b and newer) Underglow for cozy glow
 - (rev b and newer) Buzzer for indicator or sweet tunes
-- (rev b and newer) Rotary encoder at right most posision in split backspace or off board
+- (rev b and newer) Rotary encoder at right most posision in split backspace or off board (compatible encoder: https://www.aliexpress.com/item/1005001265188249.html)
 - (rev b and newer) Reverse polarity protection for battery
 - (rev c and newer) Transistor stage for battery voltage measurement cutoff for no leak current when not measuring battery voltage (like in rev A).
 
