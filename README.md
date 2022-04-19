@@ -27,7 +27,7 @@ As an option to DIY, I'll try and keep these available for purchase here: https:
 - "rubber worm"-mount support (both bakeneko v1 and bakeneko v3). Case still need battery cutout for internal battery.
 - Non constant drain battery measurement
 - Lipo charger for single cell 3.7V li-po/li-ion batteries
-- RGB-led under Capslock for multi function indicator (not on SMK-version)
+- RGB-led under Capslock for multi function indicator, not supported on SMK-version. (compatible led: https://www.aliexpress.com/item/32834911790.html)
 - Possible to build with just a soldering iron (no underside pads etc)
 - Three versions running the same FW-implementation. One MX, one ALPS, one SMK
 - USB horizontal placement is classic GH60, same as GH60, plain60, voyager60 etc.
