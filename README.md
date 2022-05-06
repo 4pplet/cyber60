@@ -35,6 +35,7 @@ As an option to DIY, I'll try and keep these available for purchase here: https:
 
 ## Todo:
 - Implement anti-shear hotswap footprints for the mx hotswap version.
+- Write flash/update ZMK instruction.
 
 # Layout support (non hotswap):
 ![alt text](./readme-images/layout_support_cyber60_Rev_D.jpg "Layout support")
