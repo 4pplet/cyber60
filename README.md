@@ -74,6 +74,7 @@ As an option to DIY, I'll try and keep these available for purchase here: https:
 - C1: Changing layout support for better solderability of module. Adding transistor cutoff for battery voltage measurement for no leak current. Switching to ws2812c in 2020-package. Rotating ANSI-enter stabilizer 180 degrees.
 - C2: Minor adjustments to pads and soldermask
 - D1: Removed 3U split space support
+- D2: Fixed error in footprint for backspace keys.
 
 # MX Hot swap-version
 ![alt text](./readme-images/cyber60-MXHS_Rev_D1_Tray.png "PCB View - Rev D")
@@ -85,5 +86,6 @@ As an option to DIY, I'll try and keep these available for purchase here: https:
 - C1: Initial revision, based on MX C1.
 - C2: Minor adjustments to pads and soldermask
 - D1: Removed 3U split space support
+- D2: Changed to anti-shear footprints
 
 <a href='https://ko-fi.com/4pplet' target='_blank'><img height='35' style='border:0px;height:46px;' src='https://az743702.vo.msecnd.net/cdn/kofi3.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com' />
