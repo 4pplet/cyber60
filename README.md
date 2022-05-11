@@ -65,7 +65,7 @@ As an option to DIY, I'll try and keep these available for purchase here: https:
 - D1: Removed 3U split space support
 
 # SMK-version
-![alt text](./readme-images/cyber60-SMK_Rev_D1_Tray.png "PCB View - Rev D")
+![alt text](./readme-images/cyber60-SMK_Rev_D2_Tray.png "PCB View - Rev D")
 
 ## SMK Revisions:
 - A1: Initial revision/prototype, builds on ALPS rev A1
@@ -77,7 +77,7 @@ As an option to DIY, I'll try and keep these available for purchase here: https:
 - D2: Fixed error in footprint for backspace keys.
 
 # MX Hot swap-version
-![alt text](./readme-images/cyber60-MXHS_Rev_D1_Tray.png "PCB View - Rev D")
+![alt text](./readme-images/cyber60-MXHS_Rev_D2_Tray.png "PCB View - Rev D")
 
 ## Layout support:
 ![alt text](./readme-images/layout_support_cyber60HS_Rev_D.jpg "Layout support")
