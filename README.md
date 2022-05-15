@@ -22,7 +22,7 @@ As an option to DIY, I'll try and keep these available for purchase here: https:
 - Standard Tray Mount support (need battery cutout for internal battery)
 - "rubber worm"-mount support (both bakeneko v1 and bakeneko v3). Case still need battery cutout for internal battery.
 - Non constant drain battery measurement
-- Lipo charger for single cell 3.7V li-po/li-ion batteries
+- Lipo charger for single cell 3.7V li-po/li-ion batteries (recommended JST SH battery: https://www.upgradekeyboards.com/product/filament-power-batteries-ultra-thin-lipo/, if soldering JST PH, adafruit batteries work well, but make sure they are not too thick)
 - RGB-led under Capslock for multi function indicator, not supported on SMK-version. (compatible led: https://www.aliexpress.com/item/32834911790.html)
 - Possible to build with just a soldering iron (no underside pads etc)
 - Three versions running the same FW-implementation. One MX, one ALPS, one SMK
