@@ -1,4 +1,4 @@
-This is a short instruction on how to get started with editing the ZMK-config files and the usual steps required to flash the PCB. It's a work in progress, if you find it lacking, please do a PR with more info or create an issue with what you are lacking. This is not a full instruction on how to edit and setup ZMK, for that, use the ZMK documentation: https://zmk.dev/docs
+This is a short instruction on how to get started with editing the ZMK-config files and the usual steps required to flash the PCB. It's a work in progress, if you find it lacking, please do a PR with more info or create an issue with what you are missing. This is not a full instruction on how to edit and setup ZMK, for that, use the ZMK documentation: https://zmk.dev/docs
 
 ## 1: Fork the ZMK-config repo
 Open this URL in a browser and press the fork button, this requires a GitHub account: https://github.com/4pplet/zmk-config-4pplet
