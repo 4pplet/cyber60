@@ -17,11 +17,11 @@ RevisionNamingSchemeGUID=
 [OutputGroup1]
 Name=cyber60-mxhs.OutJob
 Description=
-TargetOutputMedium=Assembly drawing
+TargetOutputMedium=Production output
 VariantName=[No Variations]
 VariantScope=0
 CurrentConfigurationName=
-TargetPrinter=Virtual Printer
+TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputMedium1=Print Job
 OutputMedium1_Type=Printer
@@ -42,7 +42,7 @@ OutputName1=Gerber Files
 OutputCategory1=Fabrication
 OutputDocumentPath1=cyber60-mxhs.PcbDoc
 OutputVariantName1=
-OutputEnabled1=0
+OutputEnabled1=1
 OutputEnabled1_OutputMedium1=0
 OutputEnabled1_OutputMedium2=0
 OutputEnabled1_OutputMedium3=1
@@ -51,13 +51,13 @@ OutputEnabled1_OutputMedium5=0
 OutputEnabled1_OutputMedium6=0
 OutputDefault1=0
 Configuration1_Name1=OutputConfigurationParameter1
-Configuration1_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16908289~1|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GerberUnit=Metric|GerberUnit=Metric|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=39|MinusApertureTolerance=39|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=3|NumberOfDecimals=3|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16973830~1,16973832~1,16973834~1,16777217~1,16842751~1,16973835~1,16973833~1,16973831~1,16908289~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=39|PlusApertureTolerance=39|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False
+Configuration1_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16908289~1|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GerberUnit=Metric|GerberUnit=Metric|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=39|MinusApertureTolerance=39|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=3|NumberOfDecimals=3|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16973830~1,16973832~1,16973834~1,16777217~1,16842751~1,16973835~1,16973833~1,16973831~1,16908289~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=39|PlusApertureTolerance=39|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False|DocumentPath=C:\Users\Stefan Sundin\Documents\GitHub\cyber60\cyber60-mxhs\cyber60-mxhs.PcbDoc
 OutputType2=NC Drill
 OutputName2=NC Drill Files
 OutputCategory2=Fabrication
 OutputDocumentPath2=cyber60-mxhs.PcbDoc
 OutputVariantName2=
-OutputEnabled2=0
+OutputEnabled2=1
 OutputEnabled2_OutputMedium1=0
 OutputEnabled2_OutputMedium2=0
 OutputEnabled2_OutputMedium3=2
@@ -66,13 +66,13 @@ OutputEnabled2_OutputMedium5=0
 OutputEnabled2_OutputMedium6=0
 OutputDefault2=0
 Configuration2_Name1=OutputConfigurationParameter1
-Configuration2_Item1=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=False|NumberOfDecimals=3|NumberOfUnits=4|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Metric|ZeroesMode=SuppressTrailingZeroes
+Configuration2_Item1=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=False|NumberOfDecimals=3|NumberOfUnits=4|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Metric|ZeroesMode=SuppressTrailingZeroes|DocumentPath=C:\Users\Stefan Sundin\Documents\GitHub\cyber60\cyber60-mxhs\cyber60-mxhs.PcbDoc
 OutputType3=Assembly
 OutputName3=Assembly_Drawing_ALL
 OutputCategory3=Assembly
 OutputDocumentPath3=cyber60-mxhs.PcbDoc
 OutputVariantName3=All
-OutputEnabled3=1
+OutputEnabled3=0
 OutputEnabled3_OutputMedium1=0
 OutputEnabled3_OutputMedium2=1
 OutputEnabled3_OutputMedium3=0
@@ -95,7 +95,7 @@ OutputName4=Generates pick and place files
 OutputCategory4=Assembly
 OutputDocumentPath4=cyber60-mxhs.PcbDoc
 OutputVariantName4=
-OutputEnabled4=0
+OutputEnabled4=1
 OutputEnabled4_OutputMedium1=0
 OutputEnabled4_OutputMedium2=0
 OutputEnabled4_OutputMedium3=3
@@ -104,7 +104,7 @@ OutputEnabled4_OutputMedium5=0
 OutputEnabled4_OutputMedium6=0
 OutputDefault4=0
 Configuration4_Name1=OutputConfigurationParameter1
-Configuration4_Item1=Record=PickPlaceView|Units=Metric|GenerateCSVFormat=True|GenerateTextFormat=False|ShowUnits=False|Separator=.|ExcludeFilterParam=False|IncludeVariations=True|Filter= |FilterActive=False|Column#1=Name:Designator,Fixed:True,Metric:False,Visible:True,Sort:None,Position:0|Column#2=Name:Comment,Fixed:True,Metric:False,Visible:True,Sort:None,Position:21|Column#3=Name:Layer,Fixed:True,Metric:False,Visible:True,Sort:None,Position:9|Column#4=Name:Footprint,Fixed:True,Metric:False,Visible:True,Sort:None,Position:1|Column#5=Name:Footprint Description,Fixed:True,Metric:False,Visible:False,Sort:None,Position:2|Column#6=Name:Center-X,Fixed:True,Metric:True,Visible:True,Sort:None,Position:3|Column#7=Name:Center-Y,Fixed:True,Metric:True,Visible:True,Sort:None,Position:4|Column#8=Name:Rotation,Fixed:True,Metric:False,Visible:True,Sort:None,Position:10|Column#9=Name:Description,Fixed:True,Metric:False,Visible:False,Sort:None,Position:11|Column#10=Name:ComponentKind,Fixed:True,Metric:False,Visible:False,Sort:None,Position:12|Column#11=Name:Height,Fixed:True,Metric:True,Visible:False,Sort:None,Position:13|Column#12=Name:Ref-X,Fixed:True,Metric:True,Visible:True,Sort:None,Position:5|Column#13=Name:Ref-Y,Fixed:True,Metric:True,Visible:True,Sort:None,Position:6|Column#14=Name:Pad-X,Fixed:True,Metric:True,Visible:True,Sort:None,Position:7|Column#15=Name:Pad-Y,Fixed:True,Metric:True,Visible:True,Sort:None,Position:8|Column#16=Name:Variation,Fixed:True,Metric:False,Visible:False,Sort:None,Position:14|Column#17=Name:Version,Fixed:False,Metric:False,Visible:False,Sort:None,Position:20|Column#18=Name:MRF.Part,Fixed:False,Metric:False,Visible:False,Sort:None,Position:18|Column#19=Name:MFGPN,Fixed:False,Metric:False,Visible:False,Sort:None,Position:17|Column#20=Name:MFG,Fixed:False,Metric:False,Visible:False,Sort:None,Position:16|Column#21=Name:LCSC MFG,Fixed:False,Metric:False,Visible:False,Sort:None,Position:15|Column#22=Name:Value,Fixed:False,Metric:False,Visible:False,Sort:None,Position:19|Column#23=Name:LCSC Part #,Fixed:False,Metric:False,Visible:False,Sort:None,Position:22
+Configuration4_Item1=Record=PickPlaceView|Units=Metric|GenerateCSVFormat=True|GenerateTextFormat=False|ShowUnits=False|Separator=.|ExcludeFilterParam=False|IncludeVariations=True|Filter= |FilterActive=False|Column#1=Name:Designator,Fixed:True,Metric:False,Visible:True,Sort:None,Position:0|Column#2=Name:Comment,Fixed:True,Metric:False,Visible:True,Sort:None,Position:21|Column#3=Name:Layer,Fixed:True,Metric:False,Visible:True,Sort:None,Position:9|Column#4=Name:Footprint,Fixed:True,Metric:False,Visible:True,Sort:None,Position:1|Column#5=Name:Footprint Description,Fixed:True,Metric:False,Visible:False,Sort:None,Position:2|Column#6=Name:Center-X,Fixed:True,Metric:True,Visible:True,Sort:None,Position:3|Column#7=Name:Center-Y,Fixed:True,Metric:True,Visible:True,Sort:None,Position:4|Column#8=Name:Rotation,Fixed:True,Metric:False,Visible:True,Sort:None,Position:10|Column#9=Name:Description,Fixed:True,Metric:False,Visible:False,Sort:None,Position:11|Column#10=Name:ComponentKind,Fixed:True,Metric:False,Visible:False,Sort:None,Position:12|Column#11=Name:Height,Fixed:True,Metric:True,Visible:False,Sort:None,Position:13|Column#12=Name:Ref-X,Fixed:True,Metric:True,Visible:True,Sort:None,Position:5|Column#13=Name:Ref-Y,Fixed:True,Metric:True,Visible:True,Sort:None,Position:6|Column#14=Name:Pad-X,Fixed:True,Metric:True,Visible:True,Sort:None,Position:7|Column#15=Name:Pad-Y,Fixed:True,Metric:True,Visible:True,Sort:None,Position:8|Column#16=Name:Variation,Fixed:True,Metric:False,Visible:False,Sort:None,Position:14|Column#17=Name:Version,Fixed:False,Metric:False,Visible:False,Sort:None,Position:20|Column#18=Name:MRF.Part,Fixed:False,Metric:False,Visible:False,Sort:None,Position:18|Column#19=Name:MFGPN,Fixed:False,Metric:False,Visible:False,Sort:None,Position:17|Column#20=Name:MFG,Fixed:False,Metric:False,Visible:False,Sort:None,Position:16|Column#21=Name:LCSC MFG,Fixed:False,Metric:False,Visible:False,Sort:None,Position:15|Column#22=Name:Value,Fixed:False,Metric:False,Visible:False,Sort:None,Position:19|Column#23=Name:LCSC Part #,Fixed:False,Metric:False,Visible:False,Sort:None,Position:22|DocumentPath=C:\Users\Stefan Sundin\Documents\GitHub\cyber60\cyber60-mxhs\cyber60-mxhs.PcbDoc
 OutputType5=PCB 3D Print
 OutputName5=PCB Print_All
 OutputCategory5=Documentation
@@ -174,7 +174,7 @@ OutputName9=Bill of Materials CSV
 OutputCategory9=Report
 OutputDocumentPath9=cyber60-mxhs.PcbDoc
 OutputVariantName9=All
-OutputEnabled9=0
+OutputEnabled9=1
 OutputEnabled9_OutputMedium1=0
 OutputEnabled9_OutputMedium2=0
 OutputEnabled9_OutputMedium3=4
@@ -186,9 +186,9 @@ PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintS
 Configuration9_Name1=ColumnNameFormat
 Configuration9_Item1=CaptionAsName
 Configuration9_Name2=General
-Configuration9_Item2=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=True|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|TemplateVaultGuid=|TemplateRevisionGuid=|BatchMode=0|FormWidth=950|FormHeight=661|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=<none>|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=0|UseDirectApi=False|BomSetName=
+Configuration9_Item2=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=True|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|TemplateVaultGuid=|TemplateItemGuid=|TemplateRevisionGuid=|BatchMode=0|FormWidth=950|FormHeight=661|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=<none>|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=0|UseDirectApi=False|BomSetName=
 Configuration9_Name3=GroupOrder
-Configuration9_Item3=Value=True|Footprint=True|LCSC Part #=True
+Configuration9_Item3=Value=True|LCSC Part #=True
 Configuration9_Name4=SortOrder
 Configuration9_Item4=Quantity=Down
 Configuration9_Name5=VisibleOrder
@@ -216,7 +216,7 @@ OutputName11=Export STEP
 OutputCategory11=Export
 OutputDocumentPath11=cyber60-mxhs.PcbDoc
 OutputVariantName11=All
-OutputEnabled11=0
+OutputEnabled11=1
 OutputEnabled11_OutputMedium1=0
 OutputEnabled11_OutputMedium2=0
 OutputEnabled11_OutputMedium3=5
@@ -225,13 +225,13 @@ OutputEnabled11_OutputMedium5=0
 OutputEnabled11_OutputMedium6=0
 OutputDefault11=0
 Configuration11_Name1=OutputConfigurationParameter1
-Configuration11_Item1=Record=ExportSTEPView|ExportComponentOptions=0|ExportModelsOption=2|ExportHolesOption=0|CanSelectPrimitives=False|IncludeMechanicalPadHoles=True|IncludeElectricalPadHoles=True|IncludeFreePadHoles=True|ExportFoldedBoard=True|ExportFoldedBoardRate=100|ComponentSuffixType=0|ComponentSuffix= |ExportCopperOption=0|ExportCopperLayer=0|ExportPadAndViaBarrelsOnly=False|IgnoreBoardCopperLayerColors=False|ExportAsSinglePart=False|IncludeCoverLayer=True|SkipFreeBodies=False|SkipHidden=False
+Configuration11_Item1=Record=ExportSTEPView|ExportComponentOptions=0|ExportModelsOption=2|ExportHolesOption=0|CanSelectPrimitives=False|IncludeMechanicalPadHoles=True|IncludeElectricalPadHoles=True|IncludeFreePadHoles=True|ExportFoldedBoard=True|ExportFoldedBoardRate=100|ComponentSuffixType=0|ComponentSuffix= |ExportCopperOption=0|ExportCopperLayer=0|ExportPadAndViaBarrelsOnly=False|IgnoreBoardCopperLayerColors=False|ExportAsSinglePart=False|IncludeCoverLayer=True|SkipFreeBodies=False|SkipHidden=False|DocumentPath=C:\Users\Stefan Sundin\Documents\GitHub\cyber60\cyber60-mxhs\cyber60-mxhs.PcbDoc
 OutputType12=BOM_PartType
 OutputName12=Bill of Materials CSV
 OutputCategory12=Report
 OutputDocumentPath12=cyber60-mxhs.PcbDoc
 OutputVariantName12=Bakeneko
-OutputEnabled12=0
+OutputEnabled12=1
 OutputEnabled12_OutputMedium1=0
 OutputEnabled12_OutputMedium2=0
 OutputEnabled12_OutputMedium3=6
@@ -243,9 +243,9 @@ PageOptions12=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 Configuration12_Name1=ColumnNameFormat
 Configuration12_Item1=CaptionAsName
 Configuration12_Name2=General
-Configuration12_Item2=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=True|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|TemplateVaultGuid=|TemplateRevisionGuid=|BatchMode=0|FormWidth=950|FormHeight=661|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=<none>|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=0|UseDirectApi=False|BomSetName=
+Configuration12_Item2=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=True|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|TemplateVaultGuid=|TemplateItemGuid=|TemplateRevisionGuid=|BatchMode=0|FormWidth=950|FormHeight=661|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=<none>|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=0|UseDirectApi=False|BomSetName=
 Configuration12_Name3=GroupOrder
-Configuration12_Item3=Value=True|Footprint=True|LCSC Part #=True
+Configuration12_Item3=Value=True|LCSC Part #=True
 Configuration12_Name4=SortOrder
 Configuration12_Item4=Quantity=Down
 Configuration12_Name5=VisibleOrder
@@ -257,7 +257,7 @@ OutputName13=Bill of Materials CSV
 OutputCategory13=Report
 OutputDocumentPath13=cyber60-mxhs.PcbDoc
 OutputVariantName13=Tray
-OutputEnabled13=0
+OutputEnabled13=1
 OutputEnabled13_OutputMedium1=0
 OutputEnabled13_OutputMedium2=0
 OutputEnabled13_OutputMedium3=7
@@ -269,9 +269,9 @@ PageOptions13=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 Configuration13_Name1=ColumnNameFormat
 Configuration13_Item1=CaptionAsName
 Configuration13_Name2=General
-Configuration13_Item2=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=True|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|TemplateVaultGuid=|TemplateRevisionGuid=|BatchMode=0|FormWidth=950|FormHeight=661|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=<none>|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=0|UseDirectApi=False|BomSetName=
+Configuration13_Item2=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=True|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|TemplateVaultGuid=|TemplateItemGuid=|TemplateRevisionGuid=|BatchMode=0|FormWidth=950|FormHeight=661|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=<none>|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=0|UseDirectApi=False|BomSetName=
 Configuration13_Name3=GroupOrder
-Configuration13_Item3=Value=True|Footprint=True|LCSC Part #=True
+Configuration13_Item3=Value=True|LCSC Part #=True
 Configuration13_Name4=SortOrder
 Configuration13_Item4=Quantity=Down
 Configuration13_Name5=VisibleOrder
@@ -283,7 +283,7 @@ OutputName14=Export STEP
 OutputCategory14=Export
 OutputDocumentPath14=cyber60-mxhs.PcbDoc
 OutputVariantName14=Bakeneko
-OutputEnabled14=0
+OutputEnabled14=1
 OutputEnabled14_OutputMedium1=0
 OutputEnabled14_OutputMedium2=0
 OutputEnabled14_OutputMedium3=8
@@ -292,13 +292,13 @@ OutputEnabled14_OutputMedium5=0
 OutputEnabled14_OutputMedium6=0
 OutputDefault14=0
 Configuration14_Name1=OutputConfigurationParameter1
-Configuration14_Item1=Record=ExportSTEPView|ExportComponentOptions=0|ExportModelsOption=2|ExportHolesOption=0|CanSelectPrimitives=False|IncludeMechanicalPadHoles=True|IncludeElectricalPadHoles=True|IncludeFreePadHoles=True|ExportFoldedBoard=True|ExportFoldedBoardRate=100|ComponentSuffixType=0|ComponentSuffix= |ExportCopperOption=0|ExportCopperLayer=0|ExportPadAndViaBarrelsOnly=False|IgnoreBoardCopperLayerColors=False|ExportAsSinglePart=False|IncludeCoverLayer=True|SkipFreeBodies=False|SkipHidden=False
+Configuration14_Item1=Record=ExportSTEPView|ExportComponentOptions=0|ExportModelsOption=2|ExportHolesOption=0|CanSelectPrimitives=False|IncludeMechanicalPadHoles=True|IncludeElectricalPadHoles=True|IncludeFreePadHoles=True|ExportFoldedBoard=True|ExportFoldedBoardRate=100|ComponentSuffixType=0|ComponentSuffix= |ExportCopperOption=0|ExportCopperLayer=0|ExportPadAndViaBarrelsOnly=False|IgnoreBoardCopperLayerColors=False|ExportAsSinglePart=False|IncludeCoverLayer=True|SkipFreeBodies=False|SkipHidden=False|DocumentPath=C:\Users\Stefan Sundin\Documents\GitHub\cyber60\cyber60-mxhs\cyber60-mxhs.PcbDoc
 OutputType15=ExportSTEP
 OutputName15=Export STEP
 OutputCategory15=Export
 OutputDocumentPath15=cyber60-mxhs.PcbDoc
 OutputVariantName15=Tray
-OutputEnabled15=0
+OutputEnabled15=1
 OutputEnabled15_OutputMedium1=0
 OutputEnabled15_OutputMedium2=0
 OutputEnabled15_OutputMedium3=9
@@ -307,7 +307,7 @@ OutputEnabled15_OutputMedium5=0
 OutputEnabled15_OutputMedium6=0
 OutputDefault15=0
 Configuration15_Name1=OutputConfigurationParameter1
-Configuration15_Item1=Record=ExportSTEPView|ExportComponentOptions=0|ExportModelsOption=2|ExportHolesOption=0|CanSelectPrimitives=False|IncludeMechanicalPadHoles=True|IncludeElectricalPadHoles=True|IncludeFreePadHoles=True|ExportFoldedBoard=True|ExportFoldedBoardRate=100|ComponentSuffixType=0|ComponentSuffix= |ExportCopperOption=0|ExportCopperLayer=0|ExportPadAndViaBarrelsOnly=False|IgnoreBoardCopperLayerColors=False|ExportAsSinglePart=False|IncludeCoverLayer=True|SkipFreeBodies=False|SkipHidden=False
+Configuration15_Item1=Record=ExportSTEPView|ExportComponentOptions=0|ExportModelsOption=2|ExportHolesOption=0|CanSelectPrimitives=False|IncludeMechanicalPadHoles=True|IncludeElectricalPadHoles=True|IncludeFreePadHoles=True|ExportFoldedBoard=True|ExportFoldedBoardRate=100|ComponentSuffixType=0|ComponentSuffix= |ExportCopperOption=0|ExportCopperLayer=0|ExportPadAndViaBarrelsOnly=False|IgnoreBoardCopperLayerColors=False|ExportAsSinglePart=False|IncludeCoverLayer=True|SkipFreeBodies=False|SkipHidden=False|DocumentPath=C:\Users\Stefan Sundin\Documents\GitHub\cyber60\cyber60-mxhs\cyber60-mxhs.PcbDoc
 OutputType16=PDF3D
 OutputName16=PDF3D_Bakeneko
 OutputCategory16=Documentation
@@ -345,7 +345,7 @@ OutputName18=Assembly_Drawing_Bakeneko
 OutputCategory18=Assembly
 OutputDocumentPath18=cyber60-mxhs.PcbDoc
 OutputVariantName18=Bakeneko
-OutputEnabled18=1
+OutputEnabled18=0
 OutputEnabled18_OutputMedium1=0
 OutputEnabled18_OutputMedium2=2
 OutputEnabled18_OutputMedium3=0
@@ -368,7 +368,7 @@ OutputName19=Assembly_Drawing_Tray
 OutputCategory19=Assembly
 OutputDocumentPath19=cyber60-mxhs.PcbDoc
 OutputVariantName19=Tray
-OutputEnabled19=1
+OutputEnabled19=0
 OutputEnabled19_OutputMedium1=0
 OutputEnabled19_OutputMedium2=3
 OutputEnabled19_OutputMedium3=0
@@ -415,7 +415,7 @@ ShowComponentParameters2=1
 GlobalBookmarks2=0
 PDFACompliance2=Disabled
 PDFVersion2=Default
-OutputFilePath3=C:\Users\Stefan Sundin\Documents\GitHub\cyber60\cyber60-mx\Project Outputs for alps-cherry\2021-09-02\
+OutputFilePath3=C:\Users\Stefan Sundin\Documents\GitHub\cyber60\cyber60-mxhs\Project Outputs for alps-cherry\2022-08-22\
 ReleaseManaged3=1
 OutputBasePath3=Project Outputs for alps-cherry
 OutputPathMedia3==CurrentDate
@@ -499,7 +499,7 @@ OpenOutput6=1
 [GeneratedFilesSettings]
 RelativeOutputPath2=C:\Users\Stefan\GitHub\cyber60\cyber60-mxhs\Project Outputs for alps-cherry\2022-02-09\Assembly_drawing.PDF
 OpenOutputs2=0
-RelativeOutputPath3=C:\Users\Stefan Sundin\Documents\GitHub\cyber60\cyber60-mx\Project Outputs for alps-cherry\2021-09-02\
+RelativeOutputPath3=C:\Users\Stefan Sundin\Documents\GitHub\cyber60\cyber60-mxhs\Project Outputs for alps-cherry\2022-08-22\
 OpenOutputs3=0
 AddToProject3=0
 TimestampFolder3=0
