@@ -15,7 +15,8 @@ As an option to DIY, I'll try and keep these available for purchase here: https:
 
 ## Instructions:
 - How to flash/update bootloader: [Link](./BL_FLASH_INSTRUCTION.md)
-- How to flash/update firmware using ZMK-config: [Link](./ZMK-config_steps.md)
+- How to flash/update firmware using ZMK-config (easiest): [Link](./ZMK-config_steps.md)
+- How to flash/update firmware using ZMK-repo: [Link](./ZMK_steps.md)
 
 ## Specs cyber60:
 - Module: Holyiot YJ-18010
