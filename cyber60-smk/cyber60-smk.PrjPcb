@@ -224,15 +224,15 @@ Variation2=Designator=D302|UniqueId=\WPMIWBDJ\VSCFAXYU|Kind=1|AlternatePart=
 ParamVariationCount=0
 
 [GeneratedDocument1]
-DocumentPath=Project Outputs for alps-cherry\2022-05-11\PCB 3D Print\cyber60-smk(All).png
+DocumentPath=Project Outputs for alps-cherry\2023-01-09\PCB 3D Print\cyber60-smk(All).png
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=Project Outputs for alps-cherry\2022-05-11\PCB 3D Print\cyber60-smk(Bakeneko).png
+DocumentPath=Project Outputs for alps-cherry\2023-01-09\PCB 3D Print\cyber60-smk(Bakeneko).png
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=Project Outputs for alps-cherry\2022-05-11\PCB 3D Print\cyber60-smk(Tray).png
+DocumentPath=Project Outputs for alps-cherry\2023-01-09\PCB 3D Print\cyber60-smk(Tray).png
 DItemRevisionGUID=
 
 [GeneratedDocument4]
@@ -240,12 +240,12 @@ DocumentPath=Project Outputs for alps-cherry\Design Rule Check - cyber60-smk.htm
 DItemRevisionGUID=
 
 [Parameter1]
-Name=Revision
-Value=D2-SMK
-
-[Parameter2]
 Name=ProjectTitle
 Value=cyber60 schematic
+
+[Parameter2]
+Name=Revision
+Value=D2-SMK
 
 [Configuration1]
 Name=Sources
