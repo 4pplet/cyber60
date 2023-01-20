@@ -1,5 +1,7 @@
 This is a short instruction on how to get started with editing the ZMK-config files and the usual steps required to flash the PCB. It's a work in progress, if you find it lacking, please do a PR with more info or create an issue with what you are missing. This is not a full instruction on how to edit and setup ZMK, for that, use the ZMK documentation: https://zmk.dev/docs
 
+Note: Currently, the buzzer and RGB indicator LED do not work on the ZMK-config branch. You'll need to build locally.
+
 ## 1: Fork the ZMK-config repo
 Open this URL in a browser and press the fork button, this requires a GitHub account: https://github.com/4pplet/zmk-config-4pplet
 ## 2: Get the code to your computer locally 
@@ -11,7 +13,7 @@ Make changes to your keymap or other behavior, note that you need to modify the 
 I'd recommend to use Visual studo code for this, but use a editor of your liking.
 ## 4: Push the code to GitHub
 4: Push the code to your fork on GitHub
-- The firmware will now build using GitHub actions
+- The firmware will now build using GitHub actions and be available as a artifact called "firmware"
 ## 5: Locate the build in GitHub actions
 Open the github actions tab and click on your commit
 - If the changes you made are correct/working, there should be green check marks.
