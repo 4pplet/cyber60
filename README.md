@@ -83,6 +83,9 @@ As an option to DIY, I'll try and keep these available for purchase here: https:
 ## Layout support:
 ![alt text](./readme-images/layout_support_cyber60HS_Rev_D.jpg "Layout support")
 
+## Default ZMK firmware:
+![alt text](./readme-images/default_fw_20230120.jpg "Default firmware")
+
 ## MXHS Revisions:
 - C1: Initial revision, based on MX C1.
 - C2: Minor adjustments to pads and soldermask
