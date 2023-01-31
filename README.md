@@ -35,8 +35,8 @@ As an option to DIY, I'll try and keep these available for purchase here: https:
 - (rev c and newer) Transistor stage for battery voltage measurement cutoff for no leak current when not measuring battery voltage (like in rev A).
 
 ## Todo:
-- Implement anti-shear hotswap footprints for the mx hotswap version.
-- Write flash/update ZMK instruction.
+- update R/G/B lables on silkscreen (R/G is swapped)
+- Improve flash/update ZMK instruction.
 
 # Layout support (non hotswap):
 ![alt text](./readme-images/layout_support_cyber60_Rev_D.jpg "Layout support")
