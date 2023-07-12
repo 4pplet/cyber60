@@ -29,10 +29,9 @@ On the PCB, double click on the reset-button and it'll show up on your PC as a r
 ## 9: Flash your edited firmware
 To reflash the PCB, copy the generated .uf2 file from the unpacked .zip file into the removable device (or drag drop) and the PCB will be re-flashed with your modified changes.
 
-# For editing keymap for revision B or C:
+# To change the layout on revision C or D:
 This is not strictly needed for revision C, it can run the same code as revision D. The only differences are physical on the PCB due to layout changes and minor tweaks.
 
-# To change the layout on revision C or D:
 ## 1: Remove the rev D keymap
 Remove the file "cyber60_rev_d.keymap" from zmk-config-4pplet/config/
 ## 2: Add the keymap for the revision you need
