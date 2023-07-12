@@ -14,9 +14,10 @@ As an option to DIY, I'll try and keep these available for purchase here: https:
 - Link to zmk-config (uf2-files in actions): https://github.com/4pplet/zmk-config-4pplet
 
 ## Instructions:
-- How to flash/update bootloader: [Link](./BL_FLASH_INSTRUCTION.md)
-- How to flash/update firmware using ZMK-config (easiest): [Link](./ZMK-config_steps.md)
-- How to flash/update firmware using ZMK-repo: [Link](./ZMK_steps.md)
+- How to flash/update bootloader: [Link](./instructions/BL_FLASH_INSTRUCTION.md)
+- How to flash/update firmware using ZMK-config (easiest): [Link](./instructions/ZMK-config_steps.md)
+- How to flash/update firmware using ZMK-repo: [Link](./instructions/ZMK_steps.md)
+- How to edit the ZMK-config repo using keymap-editor: [Link](./instructions/ZMK_keymap-editor.md)
 
 ## Specs cyber60:
 - Module: Holyiot YJ-18010

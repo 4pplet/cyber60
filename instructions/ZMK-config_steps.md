@@ -1,7 +1,7 @@
 This is a short instruction on how to get started with editing the ZMK-config files and the usual steps required to flash the PCB. It's a work in progress, if you find it lacking, please do a PR with more info or create an issue with what you are missing. This is not a full instruction on how to edit and setup ZMK, for that, use the ZMK documentation: https://zmk.dev/docs
 
-Note: Currently, the buzzer and RGB indicator LED do not work on the ZMK-config branch. You'll need to build locally.
-
+## 0: (prerequisite) for github
+Create a github account and log in to it.
 ## 1: Fork the ZMK-config repo
 Open this URL in a browser and press the fork button, this requires a GitHub account: https://github.com/4pplet/zmk-config-4pplet
 ## 2: Get the code to your computer locally 
@@ -25,3 +25,5 @@ Unpack this zip-file and you'll have the built firmware for all the different re
 On the PCB, double click on the reset-button and it'll show up on your PC as a removable device.
 ## 9: Flash your edited firmware
 To reflash the PCB, copy the generated .uf2 file from the unpacked .zip file into the removable device (or drag drop) and the PCB will be re-flashed with your modified changes.
+
+You can also use the keymap-editor in your browser to edit the zmk-config files. You can read about how to use it here: [Link](./instructions/ZMK_keymap-editor.md)
