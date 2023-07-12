@@ -10,6 +10,8 @@ You get a dialoge to give the editor access to your forked repo on your github a
 ## 3: Select your repo in the editor
 If all went well in step 2, you should be able to select your forked repo in the dropdown and the cyber60 default layout will show.
 ![alt text](../readme-images/keymap-editor.jpg "Keymap editor")
+
+This view will show all mappable switch positions. Not all will be able to be used at the same time. For example both backslash (above enter) and NUHS can be assigned but not used at the same time when using a normal ISO or ANSI layout. The switch with default mapping "C_PP" is the rotary encoder switch.
 ## 4: (optional) create a branch for your keymap. 
 You can also create your own branch for making keymap changes by pressing the three dots and click Create new branch.
 ![alt text](../readme-images/keymap-editor_branch.jpg "Keymap editor branch")
