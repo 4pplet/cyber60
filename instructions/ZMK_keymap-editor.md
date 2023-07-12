@@ -15,6 +15,7 @@ This view will show all mappable switch positions. Not all will be able to be us
 ## 4: (optional) create a branch for your keymap. 
 You can also create your own branch for making keymap changes by pressing the three dots and click Create new branch.
 ![alt text](../readme-images/keymap-editor_branch.jpg "Keymap editor branch")
+
 This is totally optional, but it makes it easier to track and keep your changes.
 ## 5: Adjust keymap
 Adjust the firmware using the tool and press "Save changes".
