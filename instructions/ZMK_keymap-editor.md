@@ -3,6 +3,8 @@
 Create a github account and log in to it. If you don't use your own github account and fork, you will not be able to make any changes to the keymap.
 ## 1: Fork the ZMK-config repo
 Open this URL in a browser and click the fork button: https://github.com/4pplet/zmk-config-4pplet
+
+![alt text](../readme-images/keymap-editor_fork.jpg "Keymap editor fork")
 ## 2: Open the editor and give it access
 Open the editor in a bowser (https://nickcoutsos.github.io/keymap-editor/). You will now select your github fork you created in step 1 by clicking the "source" dropdown and change from "demo keyboard" to github. 
 
