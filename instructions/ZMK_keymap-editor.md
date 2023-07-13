@@ -8,7 +8,7 @@ Open this URL in a browser and click the fork button: https://github.com/4pplet/
 ## 2: Open the editor and give it access
 Open the editor in a bowser (https://nickcoutsos.github.io/keymap-editor/). You will now select your github fork you created in step 1 by clicking the "source" dropdown and change from "demo keyboard" to github. 
 
-You get a dialoge to give the editor access to your forked repo on your github account.
+You get a dialoge to give the editor permission access the forked repo on your github account.
 ## 3: Select your repo in the editor
 If all went well in step 2, you should be able to select your forked repo in the dropdown and the cyber60 default layout will show.
 ![alt text](../readme-images/keymap-editor.jpg "Keymap editor")
