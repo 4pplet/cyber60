@@ -41,7 +41,6 @@ As an option to DIY, I'll try and keep these available for purchase here: https:
 
 # Layout support (non hotswap):
 ![alt text](./readme-images/layout_support_cyber60_Rev_D.jpg "Layout support")
-**Note: No PCB mount stabilizer is supported for 6.5u, if 6.5u is used, a plate mount stabilizer is required.**
 
 # MX-version:
 ![alt text](./readme-images/cyber60-MX_Rev_D1_Tray.png "PCB View - Rev D")
