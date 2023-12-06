@@ -15,9 +15,9 @@ https://zmk.dev/docs/development/setup
 ## 5: Build ZMK 
 4: In the terminal, navigate to the ZMK directory that was cloned from GitHub in step 2.
 change folder to app:
-cd app
+- cd app
 build ZMK, replace the last letter depending on what revision you are building.
-west build -p -b cyber60_rev_d
+- west build -p -b cyber60_rev_d
 ## 6: Locate the built .uf2
 the file build will be called zmk.uf2 and located in zmk -> app -> build -> zephyr 
 ## 7: Set the PCB in reprogram mode (enter uf2 bootloader)
