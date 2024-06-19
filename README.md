@@ -14,7 +14,7 @@ As an option to DIY, I'll try and keep these available for purchase here: https:
 - Link to zmk-config (uf2-files in actions): https://github.com/4pplet/zmk-config-4pplet
 
 ## Instructions:
-- How to flash/update bootloader (this is needed to flash bootloader via USB): [Link](./instructions/BL_FLASH_INSTRUCTION.md)
+- How to flash/update bootloader (this is needed to be able to flash firmware via USB): [Link](./instructions/BL_FLASH_INSTRUCTION.md)
 - How to flash/update firmware using ZMK-config: [Link](./instructions/ZMK-config_steps.md)
 - How to flash/update firmware using ZMK-repo (most difficult): [Link](./instructions/ZMK_steps.md)
 - How to edit the ZMK-config repo using keymap-editor (easiest): [Link](./instructions/ZMK_keymap-editor.md)
