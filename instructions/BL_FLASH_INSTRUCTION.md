@@ -9,7 +9,7 @@ I use and recommend a j-link for flashing the bootloader, for using other progra
 If you already have the bootloader flashed or have bought a PCB which has the bootloader pre-flashed, you can use the update uf2 file in the bootloader release to update the bootloader. Make sure to use the update file for the correct revision of the PCB.
 
 ## Mac/Linux:
-- Download and install nrfprog
+- Download and install nrfprog (https://www.nordicsemi.com/Products/Development-tools/nRF-Command-Line-Tools/Download)
 - Download bootloader from here (.hex-file): 
 https://github.com/4pplet/Adafruit_nRF52_Bootloader/releases
 You need the bootloader for the correct revision of your cyber60. Revision A and B share the same bootloader. If unsure: Look at the PCB, the revision will be stated under the name cyber60. Revsion here is the letter A, B, C etc.
