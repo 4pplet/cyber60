@@ -3,8 +3,7 @@
 
 A DIY-friendly 60% using nRF52840 and ZMK: the cyber.
 
-## Status:
-Split space has been updated to 2.75u + 1u + 2.75u (6.5u split) instead of 3u + 1u + 3u (7u split) in the lates revision (D) for better stabilizer support. Only 2U PCB-stabilizers was previously supported for 3u, which is not ideal but 3U stabs do not fit due to the bluetooth module placment. 6.5u split is very similar in typing, but it will only work in WK or HHKB layout, not WKL.
+Verified compatibility list: [Link](./COMPAT.md)
 
 ## Availability:
 As an option to DIY, I'll try and keep these available for purchase here: https://4pplet.com/ For DIY, the production files are avaliable in releases.
