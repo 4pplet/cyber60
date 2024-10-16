@@ -22,6 +22,6 @@ build ZMK, replace the last letter depending on what revision you are building.
 ## 6: Locate the built .uf2
 the file build will be called zmk.uf2 and located in zmk -> app -> build -> zephyr 
 ## 7: Set the PCB in reprogram mode (enter uf2 bootloader)
-On the PCB, double click on the reset-button and it'll show up on your PC as a removable device.
+To flash the built firmware, the PB needs to be put in reprogram/bootloader mode. With the default keymap, this can be done by pressing Fn + CapsLock. Alternatively, you can double click on the reset button on the PCB. When the keyboard enters this mode, key input will no longer work and a U2F removable device will show up on your PC.
 ## 8: Flash your edited firmware
 To reflash the PCB, copy the generated zmk.uf2 file into the removable device (or drag drop) and the PCB will be re-flashed with your modified changes.
