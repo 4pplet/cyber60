@@ -7,6 +7,6 @@
 [{y:0.25,x:6,a:5,f:7,w:3,d:true},"Function Layer:"],
 [{y:-0.25,a:4,f:3},"Reset","F1","F2","F3","F4","F5","F6","F7","F8","F9","F10","F11","F12",{w:2},"Delete"],
 [{w:1.5},"BT_CLR",{a:7},"",{a:4},"Up","BT0","BT1","BT2","BT3","BT4",{a:7},"","","","","",{w:1.5},""],
-[{w:1.75},"",{a:4},"Left","Down","Right",{a:7},"","","","","","","","",{w:2.25},""],
-[{w:2.25},"",{a:4},"RGB_\n\n\n\n\n\nTOG","RGB_\n\n\n\n\n\nBRI","RGB_\n\n\n\n\n\nEFR","RGB_\n\n\n\n\n\nHUD","RGB_\n\n\n\n\n\nHUI","RGB_\n\n\n\n\n\nSAD","RGB_\n\n\n\n\n\nSAI",{a:7},"","","",{w:1.75},"",""],
+[{a:5,w:1.75},"Bootloader",{a:4},"Left","Down","Right",{a:7},"","","","","","","","",{w:2.25},""],
+[{a:5,f:2,w:2.25},"Future use:\n\n\n\n\n\nStudio unlock",{a:4,f:3},"RGB_\n\n\n\n\n\nTOG","RGB_\n\n\n\n\n\nBRI","RGB_\n\n\n\n\n\nEFR","RGB_\n\n\n\n\n\nHUD","RGB_\n\n\n\n\n\nHUI","RGB_\n\n\n\n\n\nSAD","RGB_\n\n\n\n\n\nSAI",{a:7},"","","",{w:1.75},"",""],
 [{w:1.25},"",{w:1.25},"",{w:1.25},"",{w:6.25},"",{w:1.25},"",{w:1.25},"",{w:1.25},"",{w:1.25},""]
