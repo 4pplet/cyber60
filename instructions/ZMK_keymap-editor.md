@@ -28,7 +28,7 @@ The firmware is avalable (if the build went well and it's done) if you scroll do
 ## 8: Unpack the zip
 Unpack this zip-file and you'll have the built firmware for all the different revisions. You need to use the one built for the revision you edited.
 ## 9: Set the PCB in reprogram mode (enter uf2 bootloader)
-On the PCB, double click on the reset-button and it'll show up on your PC as a removable device.
+To flash the built firmware, the PB needs to be put in reprogram/bootloader mode. With the default keymap, this can be done by pressing Fn + CapsLock. Alternatively, you can double click on the reset button on the PCB. When the keyboard enters this mode, key input will no longer work and a U2F removable device will show up on your PC.
 ## 9: Flash your edited firmware
 To reflash the PCB, copy the generated .uf2 file from the unpacked .zip file into the removable device (or drag drop) and the PCB will be re-flashed with your modified changes.
 
