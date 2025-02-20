@@ -177,7 +177,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document9]
-DocumentPath=5_cyber60-mx_periferals.SchDoc
+DocumentPath=4_cyber60-mx_periferals.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -228,12 +228,12 @@ DocumentPath=Project Outputs for alps-cherry\Design Rule Check - cyber60-mx.html
 DItemRevisionGUID=
 
 [Parameter1]
-Name=ProjectTitle
-Value=cyber60 schematic
+Name=Revision
+Value=E1-MX
 
 [Parameter2]
-Name=Revision
-Value=D1-MX
+Name=ProjectTitle
+Value=cyber60 schematic
 
 [Configuration1]
 Name=Sources
