@@ -17,7 +17,7 @@ You need the bootloader for the correct revision of your cyber60. Revision A and
 - Navigate to directory of bootloader
 - Connect USB/power to the PCB and connect the programmer to the programming interface on the PCB (either the tag-connect or the 2.54 header)
 - Run:
-```nrfjprog --program [bootloader name].hex --chiperase -f nrf52 --reset```
+```nrfjprog --program [bootloader name].hex --chiperase -f nrf52 --verify --reset```
 - If you get the response that the device is locked, try running:```nrfjprog --recover```, then repeate the step above.
 - Now bootloader should be flashed if all went well and it should show up as a removable device called CYBER_ followed by it's revision
 - If flash went well, but it's not showing up. Try to cycle power of the PCB (unplug USB and battery then reconnect) and you should be able to enter bootloader (double click on reset-button) and flash the PCB.
@@ -34,7 +34,7 @@ Usually in  C:\Program Files (x86)\Nordic Semiconductor\nrf-command-line-tools\b
 - Navigate to directory
 - Connect USB/power to the PCB and connect the programmer to the programming interface on the PCB (either the tag-connect or the 2.54 header)
 - Run: 
-```nrfjprog.exe --program [bootloader name].hex --chiperase -f nrf52 --reset```
+```nrfjprog.exe --program [bootloader name].hex --chiperase -f nrf52 --verify --reset```
 - If you get the response that the device is locked, try running:```nrfjprog.exe --recover```, then repeate the step above.
 - Now bootloader should be flashed if all went well and it should show up as a removable device called CYBER_ followed by it's revision
 - If flash went well, but it's not showing up. Try to cycle power of the PCB (unplug USB and battery then reconnect) and you should be able to enter bootloader (double click on reset-button) and flash the PCB.
