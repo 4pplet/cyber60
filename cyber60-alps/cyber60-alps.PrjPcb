@@ -143,6 +143,23 @@ GenerateClassCluster=0
 DocumentUniqueId=UMAPLPXN
 
 [Document7]
+DocumentPath=4_cyber60-alps_periferals.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=SOQGEUBL
+
+[Document8]
 DocumentPath=2_cyber60-alps_matrix.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -158,40 +175,6 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=PDTDDDYM
-
-[Document8]
-DocumentPath=4_cyber60-alps_power.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=DPROKQQC
-
-[Document9]
-DocumentPath=5_cyber60-alps_periferals.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=SOQGEUBL
 
 [ProjectVariant1]
 UniqueID=21A0FF84-B2A6-4E19-83C5-B7F6DD963EBC
@@ -228,12 +211,12 @@ DocumentPath=Project Outputs for alps-cherry\Design Rule Check - cyber60-alps.ht
 DItemRevisionGUID=
 
 [Parameter1]
-Name=ProjectTitle
-Value=cyber60 schematic
+Name=Revision
+Value=E1-ALPS
 
 [Parameter2]
-Name=Revision
-Value=D1-ALPS
+Name=ProjectTitle
+Value=cyber60 schematic
 
 [Configuration1]
 Name=Sources
