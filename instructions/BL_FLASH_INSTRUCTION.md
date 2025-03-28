@@ -19,7 +19,12 @@ You need the bootloader for the correct revision of your cyber60. Revision A and
 - Run:
 ```nrfjprog --program [bootloader name].hex --chiperase -f nrf52 --verify --reset```
 - If you get the response that the device is locked, try running:```nrfjprog --recover```, then repeate the step above.
-- Now bootloader should be flashed if all went well and it should show up as a removable device called CYBER_ followed by it's revision
+```[ #################### ]   0.218s | Erase file - Done erasing                                                          
+[ #################### ]   1.293s | Program file - Done programming                                                    
+[ #################### ]   1.337s | Verify file - Done verifying                                                       
+Applying system reset.
+Run.```
+- Now bootloader should be flashed if all went well and it should show up as a removable device called CYBER_ followed by it's revision. Sometimes you have to manually mount this drive, depending on OS.
 - If flash went well, but it's not showing up. Try to cycle power of the PCB (unplug USB and battery then reconnect) and you should be able to enter bootloader (double click on reset-button) and flash the PCB.
 
 ## Windows:
