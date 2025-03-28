@@ -1,47 +1,90 @@
-# Cyber60 bootloader flash instructions
+# Cyber60 Bootloader Flash Instructions
 
-I use and recommend a j-link for flashing the bootloader, for using other programmers for flashing the bootloader, I can recommend to check jorics wiki for info: https://github.com/joric/nrfmicro/wiki/Bootloader
+I recommend using a **J-Link** programmer to flash the bootloader. If you want to use another programmer, I suggest checking out Joric’s wiki for instructions:  
+https://github.com/joric/nrfmicro/wiki/Bootloader
 
-## TLDR:
-- Do step 2 here: https://learn.adafruit.com/bluefruit-nrf52-feather-learning-guide/flashing-the-bootloader
-- But use the bootloader from here: https://github.com/4pplet/Adafruit_nRF52_Bootloader/releases
+---
 
-If you already have the bootloader flashed or have bought a PCB which has the bootloader pre-flashed, you can use the update uf2 file in the bootloader release to update the bootloader. Make sure to use the update file for the correct revision of the PCB.
+## TL;DR:
+- Follow **Step 2** in this guide:  
+  https://learn.adafruit.com/bluefruit-nrf52-feather-learning-guide/flashing-the-bootloader
+- **BUT** use the bootloader from here instead:  
+  https://github.com/4pplet/Adafruit_nRF52_Bootloader/releases
 
-## Mac/Linux:
-- Download and install nrfprog (https://www.nordicsemi.com/Products/Development-tools/nRF-Command-Line-Tools/Download)
-- Download bootloader from here (.hex-file): 
-https://github.com/4pplet/Adafruit_nRF52_Bootloader/releases
-You need the bootloader for the correct revision of your cyber60. Revision A and B share the same bootloader. If unsure: Look at the PCB, the revision will be stated under the name cyber60. Revsion here is the letter A, B, C etc.
-- Open terminal
-- Navigate to directory of bootloader
-- Connect USB/power to the PCB and connect the programmer to the programming interface on the PCB (either the tag-connect or the 2.54 header)
-- Run:
-```nrfjprog --program [bootloader name].hex --chiperase -f nrf52 --verify --reset```
-- If you get the response that the device is locked, try running:```nrfjprog --recover```, then repeate the step above.
+If your PCB already has the bootloader flashed (either from the factory or previously), you can update it by dragging the **UF2 update file** from the release.  
+Be sure to use the correct update file for your **PCB revision**.
+
+---
+
+## Mac / Linux:
+
+1. Install `nrfprog` (via [nRF Command Line Tools](https://www.nordicsemi.com/Products/Development-tools/nRF-Command-Line-Tools/Download))
+2. Download the bootloader (`.hex` file):  
+   https://github.com/4pplet/Adafruit_nRF52_Bootloader/releases  
+   Make sure it matches your Cyber60 revision.  
+   Revisions **A** and **B** use the same bootloader.  
+   Look for the letter under the "cyber60" name on the PCB.
+3. Open a terminal and navigate to the bootloader directory.
+4. Connect power to the PCB (USB or battery), and connect your programmer (via tag-connect or 2.54 header).
+5. Flash using:
+   ```bash
+   nrfjprog --program [bootloader_name].hex --chiperase -f nrf52 --verify --reset
+   ```
+6. If you get a "device is locked" error:
+   ```bash
+   nrfjprog --recover
+   ```
+   Then retry the flashing command.
+
+### Expected success output:
 ```
-[ #################### ]   0.218s | Erase file - Done erasing                                                    
-[ #################### ]   1.293s | Program file - Done programming                                         
-[ #################### ]   1.337s | Verify file - Done verifying                                                   
+[ #################### ]   0.218s | Erase file - Done erasing
+[ #################### ]   1.293s | Program file - Done programming
+[ #################### ]   1.337s | Verify file - Done verifying
 Applying system reset.
 Run.
 ```
-- Now bootloader should be flashed if all went well and it should show up as a removable device called CYBER_ followed by it's revision. Sometimes you have to manually mount this drive, depending on OS.
-- If flash went well, but it's not showing up. Try to cycle power of the PCB (unplug USB and battery then reconnect) and you should be able to enter bootloader (double click on reset-button) and flash the PCB.
+
+7. If successful, your PCB should show up as a USB drive named `CYBER_<Revision>`.  
+   If it doesn’t, try:
+   - Unplugging and replugging USB + battery  
+   - Double-clicking the reset button to enter bootloader mode
+
+---
 
 ## Windows:
-- Install nrf-command-line-tools: https://www.nordicsemi.com/Products/Development-tools/nrf-command-line-tools/download
-- Install J-link drivers: https://www.segger.com/downloads/jlink/
-- Download bootloader from here (.hex-file): 
-https://github.com/4pplet/Adafruit_nRF52_Bootloader/releases
-You need the bootloader for the correct revision of your cyber60. Revision A and B share the same bootloader. If unsure: Look at the PCB, the revision will be stated under the name cyber60. Revsion here is the letter A, B, C etc.
-- Copy bootloader to your nrf-command-line-tools directory (or copy nrfprog to the bootloader directory)
-Usually in  C:\Program Files (x86)\Nordic Semiconductor\nrf-command-line-tools\bin\
-- Open commandline
-- Navigate to directory
-- Connect USB/power to the PCB and connect the programmer to the programming interface on the PCB (either the tag-connect or the 2.54 header)
-- Run: 
-```nrfjprog.exe --program [bootloader name].hex --chiperase -f nrf52 --verify --reset```
-- If you get the response that the device is locked, try running:```nrfjprog.exe --recover```, then repeate the step above.
-- Now bootloader should be flashed if all went well and it should show up as a removable device called CYBER_ followed by it's revision
-- If flash went well, but it's not showing up. Try to cycle power of the PCB (unplug USB and battery then reconnect) and you should be able to enter bootloader (double click on reset-button) and flash the PCB.
+
+1. Install [nRF Command Line Tools](https://www.nordicsemi.com/Products/Development-tools/nrf-command-line-tools/download)
+2. Install [J-Link drivers](https://www.segger.com/downloads/jlink/)
+3. Download the appropriate bootloader `.hex` file from:  
+   https://github.com/4pplet/Adafruit_nRF52_Bootloader/releases  
+   Again: use the version that matches your PCB revision.
+4. Either:
+   - Copy the bootloader to your `nrf-command-line-tools` folder (e.g. `C:\Program Files (x86)\Nordic Semiconductor\nrf-command-line-tools\bin\`)  
+   - OR copy `nrfjprog.exe` into the folder where the `.hex` file is
+5. Open Command Prompt
+6. Navigate to the correct directory
+7. Connect USB/power to the PCB and attach your programmer
+8. Run:
+   ```cmd
+   nrfjprog.exe --program [bootloader_name].hex --chiperase -f nrf52 --verify --reset
+   ```
+9. If you get a "device is locked" error:
+   ```cmd
+   nrfjprog.exe --recover
+   ```
+   Then retry the flashing command.
+
+### Expected success output:
+```
+[ #################### ]   0.218s | Erase file - Done erasing
+[ #################### ]   1.293s | Program file - Done programming
+[ #################### ]   1.337s | Verify file - Done verifying
+Applying system reset.
+Run.
+```
+
+10. If all goes well, you should see a removable device named `CYBER_<Revision>`.  
+    If not:
+    - Unplug USB and battery, then reconnect
+    - Double-tap the reset button to enter bootloader mode
