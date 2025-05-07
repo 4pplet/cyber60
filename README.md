@@ -24,15 +24,14 @@ As an option to DIY, I'll try and keep these available for purchase here: https:
 - "rubber worm"-mount support (both bakeneko v1 and bakeneko v3). Case still need battery cutout for internal battery.
 - Non constant drain battery measurement
 - Lipo charger for single cell 3.7V li-po/li-ion batteries (recommended JST SH battery: https://www.upgradekeyboards.com/product/filament-power-batteries-ultra-thin-lipo/, if soldering JST PH, adafruit batteries work well, but make sure they are not too thick)
-- RGB-led under Capslock for multi function indicator, not supported on SMK-version. (compatible led: https://www.aliexpress.com/item/1005003719602946.html)
-- Possible to build with just a soldering iron (no underside pads etc)
+- RGB-led under Capslock for multi function indicator, not supported on SMK-version. (compatible led for rev A-D: https://www.aliexpress.com/item/1005003719602946.html)
 - Three versions running the same FW-implementation. One MX, one ALPS, one SMK
 - USB horizontal placement is classic GH60, same as GH60, plain60, voyager60 etc.
-- (rev b and newer) Underglow for cozy glow
-- (rev b and newer) Buzzer for indicator or sweet tunes
-- (rev b and newer) Rotary encoder at right most posision in split backspace or off board (compatible encoder: https://www.aliexpress.com/item/1005001265188249.html)
-- (rev b and newer) Reverse polarity protection for battery
-- (rev c and newer) Transistor stage for battery voltage measurement cutoff for no leak current when not measuring battery voltage (like in rev A).
+- (rev B and newer) Underglow for cozy glow
+- (rev B and newer) Buzzer for indicator or sweet tunes
+- (rev B and newer) Rotary encoder at right most posision in split backspace or off board (compatible encoder: https://www.aliexpress.com/item/1005001265188249.html)
+- (rev B and newer) Reverse polarity protection for battery
+- (rev E and newer) Arbitrary battery polarity
 
 ## Todo:
 - Complete Alps and SMK versions of revision E and make releases.
