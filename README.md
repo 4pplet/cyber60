@@ -19,7 +19,7 @@ As an option to DIY, I'll try and keep these available for purchase here: https:
 - How to edit the ZMK-config repo using keymap-editor (easiest): [Link](./instructions/ZMK_keymap-editor.md)
 
 ## Specs cyber60:
-- Module: Holyiot YJ-18010
+- Module: Holyiot YJ-18010 for rev A-D, E73-2G4M08S1C for rev E
 - Standard Tray Mount support (need battery cutout for internal battery)
 - "rubber worm"-mount support (both bakeneko v1 and bakeneko v3). Case still need battery cutout for internal battery.
 - Non constant drain battery measurement
@@ -52,6 +52,7 @@ As an option to DIY, I'll try and keep these available for purchase here: https:
 - C1: Changing layout support for better solderability of module. Adding transistor cutoff for battery voltage measurement for no leak current. Switching to ws2812c in 2020-package. Rotating ANSI-enter stabilizer 180 degrees.
 - C2: Minor adjustments to pads and soldermask
 - D1: Removed 3U split space support, added 6.5u split into 2.75u + 1u + 2.75u.
+- E1: Changed power curcuit (now high voltage mode), changed module, minor QOL changes
 
 # ALPS-version
 ![alt text](./readme-images/cyber60-ALPS_Rev_D1_Tray.png "PCB View - Rev D")
@@ -63,6 +64,7 @@ As an option to DIY, I'll try and keep these available for purchase here: https:
 - C1: Changing layout support for better solderability of module. Adding transistor cutoff for battery voltage measurement for no leak current. Switching to ws2812c in 2020-package. Rotating ANSI-enter stabilizer 180 degrees.
 - C2: Minor adjustments to pads and soldermask
 - D1: Removed 3U split space support
+- E1: Changed power curcuit (now high voltage mode), changed module, minor QOL changes
 
 # SMK-version
 ![alt text](./readme-images/cyber60-SMK_Rev_D2_Tray.png "PCB View - Rev D")
@@ -75,6 +77,7 @@ As an option to DIY, I'll try and keep these available for purchase here: https:
 - C2: Minor adjustments to pads and soldermask
 - D1: Removed 3U split space support
 - D2: Fixed error in footprint for backspace keys.
+- E1: Changed power curcuit (now high voltage mode), changed module, minor QOL changes
 
 # MX Hot swap-version
 ![alt text](./readme-images/cyber60-MXHS_Rev_D2_Tray.png "PCB View - Rev D")
@@ -90,5 +93,6 @@ As an option to DIY, I'll try and keep these available for purchase here: https:
 - C2: Minor adjustments to pads and soldermask
 - D1: Removed 3U split space support
 - D2: Changed to anti-shear footprints
+- E1: Changed power curcuit (now high voltage mode), changed module, minor QOL changes
 
 <a href='https://ko-fi.com/4pplet' target='_blank'><img height='35' style='border:0px;height:46px;' src='https://az743702.vo.msecnd.net/cdn/kofi3.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com' />
