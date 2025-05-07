@@ -35,7 +35,7 @@ As an option to DIY, I'll try and keep these available for purchase here: https:
 - (rev c and newer) Transistor stage for battery voltage measurement cutoff for no leak current when not measuring battery voltage (like in rev A).
 
 ## Todo:
-- update R/G/B lables on silkscreen (R/G is swapped)
+- Complete Alps and SMK versions of revision E and make releases.
 - Improve flash/update ZMK instruction.
 
 # Layout support (non hotswap):
