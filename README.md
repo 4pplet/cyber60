@@ -40,7 +40,7 @@ As an option to DIY, I'll try and keep these available for purchase here: https:
 ![alt text](./readme-images/layout_support_cyber60_Rev_D.jpg "Layout support")
 
 # MX-version:
-![alt text](./readme-images/cyber60-MX_Rev_E1.png "PCB View - Rev E")
+![alt text](./readme-images/cyber60-MX_Rev_E1.jpg "PCB View - Rev E")
 
 ## MX Revisions:
 - A1 - initial revision/prototype
@@ -53,7 +53,7 @@ As an option to DIY, I'll try and keep these available for purchase here: https:
 - E1: Changed power curcuit (now high voltage mode), changed module, minor QOL changes
 
 # ALPS-version
-![alt text](./readme-images/cyber60-ALPS_Rev_E1.png "PCB View - Rev E")
+![alt text](./readme-images/cyber60-ALPS_Rev_E1.jpg "PCB View - Rev E")
 
 ## ALPS Revisions:
 - A1 - initial revision/prototype, builds on MX rev A2
@@ -65,7 +65,7 @@ As an option to DIY, I'll try and keep these available for purchase here: https:
 - E1: Changed power curcuit (now high voltage mode), changed module, minor QOL changes
 
 # SMK-version
-![alt text](./readme-images/cyber60-SMK_Rev_E1.png "PCB View - Rev E")
+![alt text](./readme-images/cyber60-SMK_Rev_E1.jpg "PCB View - Rev E")
 
 ## SMK Revisions:
 - A1: Initial revision/prototype, builds on ALPS rev A1
@@ -78,7 +78,7 @@ As an option to DIY, I'll try and keep these available for purchase here: https:
 - E1: Changed power curcuit (now high voltage mode), changed module, minor QOL changes
 
 # MX Hot swap-version
-![alt text](./readme-images/cyber60-MXHS_Rev_E1.png "PCB View - Rev E")
+![alt text](./readme-images/cyber60-MXHS_Rev_E1.jpg "PCB View - Rev E")
 
 ## Layout support:
 ![alt text](./readme-images/layout_support_cyber60HS_Rev_D.jpg "Layout support")
