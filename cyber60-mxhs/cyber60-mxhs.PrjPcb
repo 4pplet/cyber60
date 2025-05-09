@@ -41,6 +41,40 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
+DocumentPath=4_cyber60-mxhs_periferals.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=SOQGEUBL
+
+[Document2]
+DocumentPath=cyber60-mxhs.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=FYWMUOUR
+
+[Document3]
 DocumentPath=cyber60-mxhs.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -56,40 +90,6 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
-
-[Document2]
-DocumentPath=4_cyber60-mxhs_power.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=DPROKQQC
-
-[Document3]
-DocumentPath=5_cyber60-mxhs_periferals.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=SOQGEUBL
 
 [Document4]
 DocumentPath=3_cyber60-mxhs_mcu.SchDoc
@@ -143,23 +143,6 @@ GenerateClassCluster=0
 DocumentUniqueId=MBXHBRXV
 
 [Document7]
-DocumentPath=cyber60-mxhs.PcbDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=FYWMUOUR
-
-[Document8]
 DocumentPath=..\..\Altium-Keeb-lib\Keebs.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -176,7 +159,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=CJRQXWGT
 
-[Document9]
+[Document8]
 DocumentPath=..\..\Altium-Keeb-lib\Keebs.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -221,13 +204,17 @@ VariationCount=1
 Variation1=Designator=CON303|UniqueId=\WPMIWBDJ\HAJFCQPI|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for alps-cherry\Design Rule Check - cyber60-mxhs.html
+DItemRevisionGUID=
+
 [Parameter1]
 Name=ProjectTitle
 Value=cyber60 schematic
 
 [Parameter2]
 Name=Revision
-Value=D2- MXHS
+Value=E1- MXHS
 
 [Configuration1]
 Name=Sources
