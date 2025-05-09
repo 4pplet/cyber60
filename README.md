@@ -5,6 +5,9 @@ A DIY-friendly 60% using nRF52840 and ZMK: the cyber.
 
 Verified compatibility list: [Link](./COMPAT.md)
 
+## Note:
+ALPS and SMK version of revision E are still untested and set as a pre-release. These should work, but I recommend using revision D until the design is fully verified and tested. 
+
 ## Availability:
 As an option to DIY, I'll try and keep these available for purchase here: https://4pplet.com/ For DIY, the production files are avaliable in releases.
 
@@ -33,6 +36,7 @@ As an option to DIY, I'll try and keep these available for purchase here: https:
 - (rev E and newer) Arbitrary battery polarity
 
 ## Todo:
+- Test and verify ALPS and SMK E1 release.
 - Improve flash/update ZMK instruction and documentation.
 - Improve ZMK Studio implementation.
 
