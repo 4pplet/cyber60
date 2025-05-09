@@ -21,11 +21,10 @@ As an option to DIY, I'll try and keep these available for purchase here: https:
 ## Specs cyber60:
 - Module: Holyiot YJ-18010 for rev A-D, E73-2G4M08S1C for rev E
 - Standard Tray Mount support (need battery cutout for internal battery)
-- "rubber worm"-mount support (both bakeneko v1 and bakeneko v3). Case still need battery cutout for internal battery.
-- Non constant drain battery measurement
+- "rubber worm"-mount support (both bakeneko v1 and bakeneko v3). Case still need battery cutout or space for an internal battery.
 - Lipo charger for single cell 3.7V li-po/li-ion batteries (recommended JST SH battery: https://www.upgradekeyboards.com/product/filament-power-batteries-ultra-thin-lipo/, if soldering JST PH, adafruit batteries work well, but make sure they are not too thick)
 - RGB-led under Capslock for multi function indicator, not supported on SMK-version. (compatible led for rev A-D: https://www.aliexpress.com/item/1005003719602946.html)
-- Three versions running the same FW-implementation. One MX, one ALPS, one SMK
+- Four versions running the same FW-implementation. One MX, one MXHS, one ALPS, one SMK
 - USB horizontal placement is classic GH60, same as GH60, plain60, voyager60 etc.
 - (rev B and newer) Underglow for cozy glow
 - (rev B and newer) Buzzer for indicator or sweet tunes
@@ -34,14 +33,14 @@ As an option to DIY, I'll try and keep these available for purchase here: https:
 - (rev E and newer) Arbitrary battery polarity
 
 ## Todo:
-- Complete Alps and SMK versions of revision E and make releases.
-- Improve flash/update ZMK instruction.
+- Improve flash/update ZMK instruction and documentation.
+- Improve ZMK Studio implementation.
 
 # Layout support (non hotswap):
 ![alt text](./readme-images/layout_support_cyber60_Rev_D.jpg "Layout support")
 
 # MX-version:
-![alt text](./readme-images/cyber60-MX_Rev_D1_Tray.png "PCB View - Rev D")
+![alt text](./readme-images/cyber60-MX_Rev_E1.png "PCB View - Rev E")
 
 ## MX Revisions:
 - A1 - initial revision/prototype
@@ -54,7 +53,7 @@ As an option to DIY, I'll try and keep these available for purchase here: https:
 - E1: Changed power curcuit (now high voltage mode), changed module, minor QOL changes
 
 # ALPS-version
-![alt text](./readme-images/cyber60-ALPS_Rev_D1_Tray.png "PCB View - Rev D")
+![alt text](./readme-images/cyber60-ALPS_Rev_E1.png "PCB View - Rev E")
 
 ## ALPS Revisions:
 - A1 - initial revision/prototype, builds on MX rev A2
@@ -66,7 +65,7 @@ As an option to DIY, I'll try and keep these available for purchase here: https:
 - E1: Changed power curcuit (now high voltage mode), changed module, minor QOL changes
 
 # SMK-version
-![alt text](./readme-images/cyber60-SMK_Rev_D2_Tray.png "PCB View - Rev D")
+![alt text](./readme-images/cyber60-SMK_Rev_E1.png "PCB View - Rev E")
 
 ## SMK Revisions:
 - A1: Initial revision/prototype, builds on ALPS rev A1
@@ -79,7 +78,7 @@ As an option to DIY, I'll try and keep these available for purchase here: https:
 - E1: Changed power curcuit (now high voltage mode), changed module, minor QOL changes
 
 # MX Hot swap-version
-![alt text](./readme-images/cyber60-MXHS_Rev_D2_Tray.png "PCB View - Rev D")
+![alt text](./readme-images/cyber60-MXHS_Rev_E1.png "PCB View - Rev E")
 
 ## Layout support:
 ![alt text](./readme-images/layout_support_cyber60HS_Rev_D.jpg "Layout support")
