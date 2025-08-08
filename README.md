@@ -19,7 +19,9 @@ As an option to DIY, I'll try and keep these available for purchase here: https:
 - How to flash/update bootloader (this is needed to be able to flash firmware via USB): [Link](./instructions/BL_FLASH_INSTRUCTION.md)
 - How to flash/update firmware using ZMK-config: [Link](./instructions/ZMK-config_steps.md)
 - How to flash/update firmware using ZMK-repo (most difficult): [Link](./instructions/ZMK_steps.md)
-- How to edit the ZMK-config repo using keymap-editor (easiest): [Link](./instructions/ZMK_keymap-editor.md)
+- How to edit the ZMK-config repo using keymap-editor (easy but a bit outdated): [Link](./instructions/ZMK_keymap-editor.md)
+
+Easiest for remapping is to use ZMK Studio: https://zmk.studio/ This requires no reflashing if you already use the latest default firmware.
 
 ## Specs cyber60:
 - Module: Holyiot YJ-18010 for rev A-D, E73-2G4M08S1C for rev E
