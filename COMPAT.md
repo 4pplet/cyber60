@@ -6,6 +6,6 @@
 - **Bakeneko** Used PCB:  Cyber60 Rev D. Fit with the USB-C connector desoldered. A thin battery is required.
 
 ## Not fully compatible:
-- **Unikorn R2** Cyber60 Rev E. Will fit with the USB-C connector desoldered. Unikorn cases use a different daughterboard placment which can cause compatibility issues, use a longer daughterboard connector cable. Used PCB: Cyber60 Rev E. 25cm JST cable. Upgrade Keyboard Ultrathin LiPOs (1400mah)
+- **Unikorn R2** Will fit with the USB-C connector desoldered. Unikorn cases use a different daughterboard placment which can cause compatibility issues, use a longer daughterboard connector cable. Used PCB: Cyber60 Rev E. 25cm JST cable. Upgrade Keyboard Ultrathin LiPOs (1400mah)
 
 ## Incompatible:
