@@ -25,5 +25,3 @@ Unpack this zip-file and you'll have the built firmware for all the different re
 To flash the built firmware, the PCB needs to be put in reprogram/bootloader mode. With the default keymap, this can be done by pressing Fn + CapsLock. Alternatively, you can double click on the reset button on the PCB. When the keyboard enters this mode, key input will no longer work and a UF2 removable device will show up on your PC.
 ## 9: Flash your edited firmware
 To reflash the PCB, copy the generated .uf2 file from the unpacked .zip file into the removable device (or drag drop) and the PCB will be re-flashed with your modified changes.
-
-You can also use the keymap-editor in your browser to edit the zmk-config files. You can read about how to use it here: [ZMK_keymap-editor.md](./ZMK_keymap-editor.md)
