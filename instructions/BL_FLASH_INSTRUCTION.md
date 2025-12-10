@@ -18,7 +18,7 @@ Be sure to use the correct update file for your **PCB revision**.
 
 ## Mac / Linux:
 
-1. Install `nrfprog` (via [nRF Command Line Tools](https://www.nordicsemi.com/Products/Development-tools/nRF-Command-Line-Tools/Download))
+1. Install `nrfjprog` (via [nRF Command Line Tools](https://www.nordicsemi.com/Products/Development-tools/nRF-Command-Line-Tools/Download))
 2. Download the bootloader (`.hex` file):  
    https://github.com/4pplet/Adafruit_nRF52_Bootloader/releases  
    Make sure it matches your Cyber60 revision.  
